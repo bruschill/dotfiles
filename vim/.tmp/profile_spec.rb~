@@ -1,0 +1,48 @@
+require 'spec_helper'
+
+describe Profile do
+  before(:each) do
+    @attr = {:bio => "my bio" }
+  end
+
+  it "should create a new profile" do
+    Profile.create!(@attr)
+  end
+
+  it "should accept empty bios" do
+    empty_bio = ""
+
+    empty_bio_profile = Profile.create!(:bio => empty_bio)
+    empty_bio_profile.should be_valid
+  end
+
+  it "should reject bios that are too long" do
+    long_bio = 'a' * 141
+    
+    long_bio_profile = Profile.new(@attr.merge(:bio => long_bio))
+    long_bio_profile.should_not be_valid
+  end
+
+  it "should reject bios that are nil" do
+    nil_bio_profile = Profile.new(@attr.merge(:bio => nil))
+    nil_bio_profile.should_not be_valid
+  end
+
+  it "should have tasks_completed set to zero on create" do
+    profile = Profile.new(@attr)
+
+    profile.tasks_completed.should == 0
+  end
+
+  it "should have xp_value set to zero on create" do
+    profile = Profile.new(@attr)
+
+    profile.xp_total.should == 0
+  end
+
+  it "should have level_value set to zero on create" do
+    profile = Profile.new(@attr)
+
+    profile.level_value.should == 0
+  end
+end

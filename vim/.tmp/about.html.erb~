@@ -1,0 +1,29 @@
+<h1 class="underlined">About</h1>
+
+<p>
+  <b><big><big>TaskRPG</big></big></b> is an experience-based task tracker where you're rewarded for getting out of the house and, you know, <em>doing things</em>.
+</p><br />
+
+<p>
+  <big>Basically</big>, it works like this:
+</p>
+
+<ul style="list-style-type:circle;">
+  <li class="indented">Sign in</li>
+  <li class="indented">Make a list</li>
+  <li class="indented">Add some tasks and set their experience value</li>
+  <li class="indented">Complete said tasks</li>
+  <li class="indented">Gain experience and level up</li>
+  <li class="indented">Repeat 2 through 5 as needed</li>
+  <li class="indented">Become the most productive human being on Earth!</li>
+</ul>
+
+<p>
+  It really is that simple!
+</p><br />
+
+<p>
+  So listen, when everything is up and running you should really consider signing up. What can it hurt?
+</p><br />
+
+<p class="small_quip">...it really <em>can't</em>.</p>

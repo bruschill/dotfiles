@@ -1,0 +1,11 @@
+class AddDefaultsToProfiles < ActiveRecord::Migration
+  def self.up
+    change_column :profiles, :tasks_completed, :default => 0
+    change_column :profiles, :xp_total, :default => 0
+    change_column :profiles, :level_value, :default => 0 
+  end
+
+  def self.down
+    raise ActiveRecord::IrreversibleMigration, "can't remove the default"
+  end
+end

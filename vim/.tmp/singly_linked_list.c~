@@ -1,0 +1,112 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/* node struct used in linked lists */
+struct Node {
+    struct Node *next;
+    int value;
+};
+
+/* prints the main menu */
+int print_main_menu(){
+    int menu_selection = 0;
+
+    printf("Please make a selection:\n");
+    printf("1 - add a number to the list\n");
+    printf("2 - print current list elements\n");
+    printf("3 - quit\n\n");
+
+    printf("Your selection: ");
+    scanf("%d", &menu_selection);
+
+    return menu_selection;
+}
+
+/* recursively print from the node passed in to the last node added */
+void print_node_val_f_to_l(struct Node *node){
+    printf("%d\n", node->value);
+
+    if(node->next != NULL){
+        print_node_val_f_to_l(node->next);
+    }
+
+    printf("\n");
+}
+
+/* recursively print last node added to the node passed in */
+void print_node_val_l_to_f(struct Node *node){
+    if(node->next == NULL){
+        printf("%d\n", node->value);
+        return;
+    }else{
+        print_node_val_l_to_f(node->next);
+    }
+
+    printf("%d\n", node->value);
+}
+
+/* recursively delete from last node added to the node passed in */
+void rec_delete_node(struct Node *node){
+    if(node->next == NULL){
+        free(node);
+        return;
+    }else{
+        rec_delete_node(node->next);
+    }
+
+    free(node);
+}
+
+main(){
+    struct Node *head = NULL;
+    struct Node *last_added = NULL;
+
+    while(1){
+        int menu_selection = print_main_menu();
+
+        if(menu_selection == 1){
+            int num_to_add;
+            printf("Please enter a number: ");
+            scanf("%d", &num_to_add);
+            printf("\n");
+
+            if(num_to_add < 0){
+                break;
+            }else{
+                total_elements++;
+            }
+
+            if(head == NULL){
+                head = (struct Node *)malloc(sizeof(struct Node));
+                head->value = num_to_add;
+                last_added = head;
+            }else{
+                struct Node *temp_node = (struct Node*)malloc(sizeof(struct Node)); 
+                temp_node->value = num_to_add;
+                last_added->next = temp_node;
+                last_added = temp_node;
+            }
+        }else if(menu_selection == 2){
+            int order_selection = 0;
+            printf("1 - First value added to last value added\n");
+            printf("2 - Last value added to first value added\n\n");
+
+            printf("Your selection: ");
+            scanf("%d", &order_selection);
+
+            if(order_selection == 1){
+                print_node_val_f_to_l(head);
+            }else if(order_selection == 2){
+                print_node_val_l_to_f(head);
+                printf("\n");
+            }else{
+                /* do nothing, returning to original menu */
+            }
+        }else if(menu_selection == 3){
+            rec_delete_node(head);
+            break;
+        }else{
+            /* do nothing */
+        }
+    }
+}

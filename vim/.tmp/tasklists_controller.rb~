@@ -1,0 +1,35 @@
+class TasklistsController < ApplicationController
+  def show
+    @user = User.find(params[:user_id])
+    @tasklist = Tasklist.find(params[:id])
+  end
+
+  def new
+    @user = User.find(params[:user_id])
+    @tasklist = Tasklist.new
+    @title = "New Tasklist"
+  end
+
+  def create
+    @user = User.find(params[:user_id])
+    @tasklist = Tasklist.new(params[:tasklist])
+    @tasklist.user_id = @user.id
+
+    if @tasklist.save
+      flash[:success] = "Tasklist created!"
+      redirect_to user_path(@user)
+    else
+      @title = "Sign up"
+      render 'new'
+    end
+  end
+
+  def edit
+  end
+
+  def update
+  end
+
+  def delete
+  end
+end

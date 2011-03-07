@@ -1,0 +1,10 @@
+class AddingXpLevelAndTasksCompletedToUserModel < ActiveRecord::Migration
+  def self.up
+    add_column :users, :total_xp, :integer, :default => 0
+    add_column :users, :level, :integer, :default => 0
+    add_column :users, :tasks_completed, :integer, :default => 0
+  end
+
+  def self.down
+  end
+end

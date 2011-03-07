@@ -1,0 +1,19 @@
+TaskRPG::Application.routes.draw do
+  resources :users do
+    resources :tasklists
+  end
+
+  resources :navigation
+  resources :sessions, :only => [:new, :create, :destroy]
+
+  root :to => 'navigation#home'
+
+  match "/signup" => "users#new" 
+  match "/signin" => "sessions#new"
+  match "/signout" => "sessions#destroy"
+  match "/about" => "navigation#about"
+  match "/contact" => "navigation#contact"
+  match "/help" => "navigation#help"
+
+  match "/users/:user_id/tasklists/new" => "tasklists#new"
+end

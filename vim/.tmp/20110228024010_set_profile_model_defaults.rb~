@@ -1,0 +1,10 @@
+class SetProfileModelDefaults < ActiveRecord::Migration
+  def self.up
+    change_column :profiles, :tasks_completed, :integer, :default => 0
+    change_column :profiles, :xp_total, :integer, :default => 0
+    change_column :profiles, :level_value, :integer, :default => 0
+  end
+
+  def self.down
+  end
+end

@@ -1,0 +1,25 @@
+<table class="profile">
+  <% if signed_in? %>
+    <%= link_to "Create a list!", new_user_tasklist_path(@user) %>
+  <% end %>
+
+  <tr>
+    <td class="main">
+      <ul>
+      <% @user.tasklists.each do |tasklist| %>
+        <li style="list-style-type:none;">
+          <%= link_to tasklist.title, user_tasklist_path(@user, tasklist) %>
+        </li>
+      <% end %>
+      </ul>
+    </td>
+
+    <td class="sidebar round">
+      <strong>Username</strong> <%= @user.username %><br /><br />
+
+      <strong>Level:</strong> <%= @user.level %><br />
+      <strong>Experience:</strong> <%= @user.total_xp %><br />
+      <strong>Tasks Completed:</strong> <%= @user.tasks_completed %><br /><br />
+    </td>
+  </tr>
+</table>

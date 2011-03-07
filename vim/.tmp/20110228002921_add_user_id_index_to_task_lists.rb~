@@ -1,0 +1,9 @@
+class AddUserIdIndexToTaskLists < ActiveRecord::Migration
+  def self.up
+    add_column :tasklists, :user_id, :integer
+    add_index :tasklists, :user_id
+  end
+
+  def self.down
+  end
+end

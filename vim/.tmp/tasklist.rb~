@@ -1,0 +1,28 @@
+# == Schema Information
+# Schema version: 20110228135357
+#
+# Table name: tasklists
+#
+#  id          :integer         not null, primary key
+#  title       :string(255)
+#  description :string(255)
+#  xp_value    :integer         default(0)
+#  completed   :boolean
+#  created_at  :datetime
+#  updated_at  :datetime
+#  user_id     :integer
+#
+include SessionsHelper
+class Tasklist < ActiveRecord::Base
+  attr_accessible :title, :description, :completed, :xp_value
+
+  validates :title, :presence => true,
+                    :length => { :within => 1..40 }
+
+  belongs_to :user
+  has_many :tasks
+
+  def self.get_task_lists(user)
+    Tasklist.find_by_user_id(user.id) unless user != current_user
+  end
+end

@@ -1,0 +1,59 @@
+require 'spec_helper'
+
+describe TaskList do
+  before(:each) do
+    @attr = { :title => "Title" }
+  end
+
+  describe "basic tasklist model validations" do
+    it "should create a new task list" do
+      TaskList.create!(@attr)
+    end
+
+    it "should reject empty titles" do
+      empty_title = ""
+      empty_title_task = TaskList.new(:title => empty_title)
+
+      empty_title_task.should_not be_valid
+    end
+
+    it "should reject titles over 40 characters in length" do
+      long_title = 'a' * 41
+
+      long_title_task = TaskList.new(@attr.merge(:title => long_title))
+      long_title_task.should_not be_valid
+    end
+
+    it "should have xp_value set to zero on create" do
+      tasklist = TaskList.new(@attr)
+
+      tasklist.xp_value.should == 0
+    end
+
+    it "should have completed set to false on create" do
+      tasklist = TaskList.new(@attr)
+
+      tasklist.completed.should == false
+    end
+  end
+
+  describe "task associations" do
+    before(:each) do
+      @tasklist = TaskList.create!(@attr)
+
+      @t1 = Task.create!(:title => "first title")
+      @t2 = Task.create!(:title => "second title")
+    end
+
+    it "should have a tasks attribute" do
+      @tasklist.should respond_to(:tasks)
+    end
+
+    it "should be able to have tasks associated with it" do
+      @tasklist.tasks = [@t1, @t2]
+
+      @tasklist.id.should == @t1.task_list_id
+      @tasklist.id.should == @t2.task_list_id
+    end
+  end
+end

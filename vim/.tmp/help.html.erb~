@@ -1,0 +1,15 @@
+<h1 class="underlined">Help</h1>
+
+<p>
+  If something just isn't acting right, head over <a href="http://goo.gl/mod/wCvr">here</a> and let me know about it!
+</p>
+
+<p style="font-size:75%;">
+  (it's really the best place to let me know about issues that you're having that need fixing!)
+</p><br />
+
+<p>
+  Or, if you need to get in contact with me directly, head over to the <%= link_to "contact page", contact_path %> and email me! 
+</p><br />
+
+<p class="small_quip">...the first link is your best bet though.</p>

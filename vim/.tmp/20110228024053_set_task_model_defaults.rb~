@@ -1,0 +1,10 @@
+class SetTaskModelDefaults < ActiveRecord::Migration
+  def self.up
+    change_column :tasks, :xp_value, :integer, :default => 0
+    change_column :tasks, :completed, :boolean, :default => false
+  end
+
+  def self.down
+    raise ActiveRecord::IrreversibleMigration, "Can't rollback default settings"
+  end
+end
