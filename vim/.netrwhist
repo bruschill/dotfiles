@@ -1,7 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/home/brandon/documents/code/ruby/taskRPG/db/migrate'
-let g:netrw_dirhist_2='/home/brandon/documents/code/ruby/taskRPG/app/views/navigation'
-let g:netrw_dirhist_3='/home/brandon/documents/code/ruby/taskRPG/app/views/layouts'
-let g:netrw_dirhist_4='/home/brandon/documents/code/ruby/taskRPG/public/stylesheets/css3-buttons/.git'
-let g:netrw_dirhist_5='/home/brandon/documents/code/ruby/taskRPG/public/stylesheets/css3-buttons'
