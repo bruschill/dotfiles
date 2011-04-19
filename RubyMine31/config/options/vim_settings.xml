@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="VimSettings">
+    <state enabled="true" keymap="$default" />
+    <globalmarks />
+    <filemarks>
+      <file name="$USER_HOME$/documents/code/ruby/craftly/app/controllers/static_pages_controller.rb" timestamp="1301726514138">
+        <mark key="]" line="1" column="35" />
+        <mark key="^" line="1" column="35" />
+        <mark key="[" line="1" column="39" />
+      </file>
+      <file name="$USER_HOME$/documents/code/ruby/craftly/db/migrate/20110412045726_add_comment_to_invite.rb" timestamp="1302584338476">
+        <mark key="]" line="6" column="35" />
+        <mark key="^" line="6" column="35" />
+        <mark key="[" line="5" column="15" />
+      </file>
+      <file name="$USER_HOME$/documents/code/ruby/craftly/app/views/invites/prepare_bulk_invite_gen.html.haml" timestamp="1302584855422">
+        <mark key="]" line="29" column="8" />
+        <mark key="^" line="29" column="8" />
+        <mark key="[" line="28" column="41" />
+      </file>
+      <file name="$USER_HOME$/documents/code/ruby/craftly/app/controllers/stores_controller.rb" timestamp="1302754491532">
+        <mark key="]" line="34" column="66" />
+        <mark key="^" line="34" column="66" />
+        <mark key="[" line="34" column="67" />
+      </file>
+      <file name="$USER_HOME$/documents/code/ruby/craftly/app/views/invites/admin.html.haml" timestamp="1301721102086">
+        <mark key="]" line="31" column="119" />
+        <mark key="^" line="31" column="119" />
+        <mark key="[" line="31" column="102" />
+      </file>
+      <file name="$USER_HOME$/documents/code/ruby/craftly/app/models/store.rb" timestamp="1302753616329">
+        <mark key="]" line="13" column="43" />
+        <mark key="^" line="13" column="43" />
+        <mark key="[" line="13" column="20" />
+      </file>
+      <file name="$USER_HOME$/documents/code/ruby/craftly/app/views/devise/registrations/new.html.haml" timestamp="1301931270975">
+        <mark key="]" line="5" column="6" />
+        <mark key="^" line="5" column="6" />
+        <mark key="[" line="5" column="37" />
+      </file>
+      <file name="$USER_HOME$/documents/code/ruby/craftly/config/database.yml" timestamp="1302134340811">
+        <mark key="]" line="41" column="18" />
+        <mark key="^" line="41" column="18" />
+        <mark key="[" line="41" column="12" />
+      </file>
+      <file name="$USER_HOME$/documents/code/ruby/craftly/app/views/invite_mailer/invitation_notice.text.haml" timestamp="1302147539103">
+        <mark key="]" line="2" column="34" />
+        <mark key="^" line="2" column="34" />
+        <mark key="[" line="2" column="27" />
+      </file>
+      <file name="$USER_HOME$/documents/code/ruby/craftly/lib/email_validator.rb" timestamp="1302139693456">
+        <mark key="]" line="1" column="25" />
+        <mark key="^" line="1" column="25" />
+        <mark key="[" line="1" column="20" />
+      </file>
+      <file name="$USER_HOME$/documents/code/ruby/craftly/app/views/static_pages/admin_dashboard.html.haml" timestamp="1302584628799">
+        <mark key="'" line="0" column="0" />
+        <mark key="]" line="4" column="61" />
+        <mark key="^" line="4" column="61" />
+        <mark key="[" line="4" column="37" />
+      </file>
+      <file name="$USER_HOME$/documents/code/ruby/craftly/config/initializers/setup_mail.rb" timestamp="1302149038518">
+        <mark key="]" line="6" column="30" />
+        <mark key="^" line="6" column="30" />
+        <mark key="[" line="6" column="20" />
+      </file>
+      <file name="$USER_HOME$/documents/code/ruby/craftly/db/migrate/20110401144037_add_is_vip_to_invite.rb" timestamp="1301675431207">
+        <mark key="]" line="2" column="61" />
+        <mark key="^" line="2" column="61" />
+        <mark key="[" line="2" column="42" />
+      </file>
+      <file name="$USER_HOME$/documents/code/ruby/craftly/app/controllers/invites_controller.rb" timestamp="1302587987482">
+        <mark key="'" line="89" column="27" />
+        <mark key="]" line="75" column="51" />
+        <mark key="^" line="75" column="51" />
+        <mark key="[" line="75" column="21" />
+      </file>
+      <file name="$USER_HOME$/documents/code/ruby/craftly/config/environments/development.rb" timestamp="1302145421297">
+        <mark key="]" line="17" column="50" />
+        <mark key="^" line="17" column="50" />
+        <mark key="[" line="17" column="47" />
+      </file>
+      <file name="$USER_HOME$/documents/code/ruby/craftly/app/controllers/registrations_controller.rb" timestamp="1302145050284">
+        <mark key="]" line="38" column="19" />
+        <mark key="^" line="38" column="19" />
+        <mark key="[" line="38" column="8" />
+      </file>
+      <file name="$USER_HOME$/documents/code/ruby/craftly/config/routes.rb" timestamp="1301724728085">
+        <mark key="]" line="26" column="29" />
+        <mark key="^" line="26" column="29" />
+        <mark key="[" line="26" column="10" />
+      </file>
+      <file name="$USER_HOME$/documents/code/ruby/craftly/.gitignore" timestamp="1302013152510">
+        <mark key="]" line="27" column="0" />
+        <mark key="[" line="27" column="0" />
+      </file>
+      <file name="$USER_HOME$/documents/code/ruby/craftly/app/views/invites/generate_invites.html.haml" timestamp="1301719168795">
+        <mark key="]" line="6" column="73" />
+        <mark key="^" line="6" column="73" />
+        <mark key="[" line="6" column="73" />
+      </file>
+      <file name="$USER_HOME$/documents/code/ruby/craftly/app/views/invite_mailer/invitee_notice.html.haml" timestamp="1302149737704">
+        <mark key="]" line="13" column="15" />
+        <mark key="^" line="13" column="15" />
+        <mark key="[" line="10" column="23" />
+      </file>
+      <file name="$USER_HOME$/documents/code/ruby/craftly/app/views/invite_mailer/invitation_notice.html.haml" timestamp="1302149008719">
+        <mark key="]" line="14" column="2" />
+        <mark key="^" line="14" column="2" />
+        <mark key="[" line="13" column="17" />
+      </file>
+      <file name="$USER_HOME$/documents/code/ruby/craftly/config/authorization_rules.rb" timestamp="1301726598159">
+        <mark key="]" line="22" column="60" />
+        <mark key="^" line="22" column="60" />
+        <mark key="[" line="22" column="51" />
+      </file>
+      <file name="$USER_HOME$/documents/code/ruby/craftly/lib/email_format_validator.rb" timestamp="1302141290418">
+        <mark key="]" line="2" column="53" />
+        <mark key="[" line="2" column="0" />
+      </file>
+      <file name="$USER_HOME$/documents/code/ruby/craftly/app/views/stores/show.html.haml" timestamp="1302754958511">
+        <mark key="'" line="28" column="31" />
+        <mark key="]" line="34" column="31" />
+        <mark key="^" line="34" column="31" />
+        <mark key="[" line="34" column="32" />
+      </file>
+      <file name="$USER_HOME$/documents/code/ruby/craftly/app/views/invites/index.html.haml" timestamp="1302585714763">
+        <mark key="]" line="18" column="27" />
+        <mark key="^" line="18" column="27" />
+        <mark key="[" line="10" column="15" />
+      </file>
+      <file name="$USER_HOME$/documents/code/ruby/craftly/Gemfile" timestamp="1302013259883">
+        <mark key="]" line="46" column="15" />
+        <mark key="^" line="46" column="15" />
+        <mark key="[" line="46" column="16" />
+      </file>
+      <file name="$USER_HOME$/documents/code/ruby/craftly/spec/models/invite_spec.rb" timestamp="1302587273966">
+        <mark key="]" line="41" column="33" />
+        <mark key="^" line="41" column="33" />
+        <mark key="[" line="41" column="26" />
+      </file>
+      <file name="$USER_HOME$/documents/code/ruby/craftly/app/models/invite.rb" timestamp="1302149568651">
+        <mark key="'" line="31" column="0" />
+        <mark key="]" line="55" column="44" />
+        <mark key="^" line="55" column="44" />
+        <mark key="[" line="55" column="31" />
+      </file>
+    </filemarks>
+    <jumps>
+      <jump line="1" column="0" filename="$USER_HOME$/documents/code/ruby/craftly/db/migrate/20110321015039_add_is_used_to_invite.rb" />
+      <jump line="0" column="0" filename="$USER_HOME$/documents/code/ruby/craftly/db/migrate/20110321015039_add_is_used_to_invite.rb" />
+      <jump line="47" column="27" filename="$USER_HOME$/documents/code/ruby/craftly/app/controllers/invites_controller.rb" />
+      <jump line="18" column="0" filename="$USER_HOME$/documents/code/ruby/craftly/app/views/static_pages/beta_signup.html.haml" />
+      <jump line="30" column="0" filename="$USER_HOME$/documents/code/ruby/craftly/app/models/invite.rb" />
+      <jump line="0" column="0" filename="$USER_HOME$/documents/code/ruby/craftly/app/views/static_pages/admin_dashboard.html.haml" />
+      <jump line="28" column="31" filename="$USER_HOME$/documents/code/ruby/craftly/app/views/stores/show.html.haml" />
+    </jumps>
+    <registers>
+      <register name="&quot;" type="2">
+        <text><![CDATA[&#32;&#32;&#32;&#32;@store&#32;=&#32;Store.find(params&#91;:id&#93;)&#10;]]></text>
+      </register>
+      <register name="-" type="4">
+        <text><![CDATA[m_to_generate.to_s&#32;+&#32;"&#32;VIP&#32;invites,&#32;with&#32;"&#32;+&#32;num_uses_vip.to_s&#32;+&#32;"&#32;uses&#32;per&#32;invite,&#32;were&#32;created&#32;successfully&#33;")]]></text>
+      </register>
+      <register name="3" type="2">
+        <text><![CDATA[&#10;]]></text>
+      </register>
+      <register name="2" type="2">
+        <text><![CDATA[&#32;&#32;&#32;&#32;@store&#32;=&#32;Store.find(params&#91;:id&#93;)&#10;&#32;&#32;&#32;&#32;@listing&#32;=&#32;@store.listings;&#10;]]></text>
+      </register>
+      <register name="1" type="2">
+        <text><![CDATA[&#32;&#32;&#32;&#32;@store&#32;=&#32;Store.find(params&#91;:id&#93;)&#10;]]></text>
+      </register>
+      <register name="0" type="2">
+        <text><![CDATA[%h1&#10;&#32;&#32;You've&#32;been&#32;invited&#32;to&#32;Craftly&#33;&#10;%h6&#10;&#32;&#32;Congratulations&#33;&#32;You're&#32;to&#32;join&#32;the&#32;Craftly&#32;community&#33;&#10;&#10;%p&#10;&#32;&#32;Unfortunately,&#32;our&#32;doors&#32;aren't&#32;quite&#32;open&#32;yet,&#32;but&#32;we&#32;have&#32;provided&#32;you&#32;a&#32;secret&#32;code&#32;to&#32;join&#32;now&#32;so&#32;that&#32;when&#32;we&#32;do&#32;launch,&#10;&#32;&#32;you&#32;will&#32;be&#32;one&#32;of&#32;the&#32;first&#32;people&#32;to&#32;be&#32;a&#32;part&#32;of&#32;a&#32;great&#32;handmade&#32;community&#33;&#10;]]></text>
+      </register>
+      <register name="7" type="2">
+        <text><![CDATA[&#32;&#32;&#32;&#32;&#32;&#32;redirect_to(new_store_path)&#10;]]></text>
+      </register>
+      <register name="6" type="2">
+        <text><![CDATA[&#32;&#32;&#32;&#32;if&#32;@store.nil?&#10;]]></text>
+      </register>
+      <register name="5" type="2">
+        <text><![CDATA[&#32;&#32;&#32;&#32;end&#10;]]></text>
+      </register>
+      <register name="4" type="2">
+        <text><![CDATA[&#32;&#32;&#32;&#32;&#10;]]></text>
+      </register>
+      <register name=":" type="4">
+        <text><![CDATA[w]]></text>
+      </register>
+      <register name="9" type="16">
+        <text><![CDATA[d]]></text>
+      </register>
+      <register name="8" type="16">
+        <text><![CDATA[)]]></text>
+      </register>
+    </registers>
+    <search>
+      <last-dir>0</last-dir>
+      <show-last>false</show-last>
+    </search>
+    <history>
+      <history-search />
+      <history-cmd>
+        <entry><![CDATA['<,'>w]]></entry>
+        <entry><![CDATA[W]]></entry>
+        <entry><![CDATA[w]]></entry>
+      </history-cmd>
+      <history-expr />
+      <history-input />
+    </history>
+  </component>
+</application>
+
