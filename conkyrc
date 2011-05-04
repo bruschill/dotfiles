@@ -20,14 +20,11 @@ background yes
 double_buffer yes
 
 # fiddle with window
-use_spacer right
+#use_spacer right
 use_xft yes
 
 # Update interval in seconds
 update_interval 2.0
-
-# Minimum size of text area
-minimum_size 400 5
 
 # Draw shades?
 draw_shades no
@@ -55,8 +52,8 @@ own_window_transparent yes
 # Text alignment, other possible values are commented
 #alignment top_left
 #alignment top_right
-alignment bottom_left
-#alignment bottom_right
+#alignment bottom_left
+alignment bottom_right
 
 # Gap between borders of screen and text
 gap_x 4
