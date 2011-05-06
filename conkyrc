@@ -42,7 +42,7 @@ stippled_borders 8
 border_width 1
 
 # Default colors and also border colors, grey90 == #e5e5e5
-default_color white
+default_color black
 default_shade_color black
 default_outline_color white
 
