@@ -1,3 +1,0 @@
-(if(contains(window_name) "Vim")
-    (maximize)
-)
