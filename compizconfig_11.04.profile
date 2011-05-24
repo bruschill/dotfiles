@@ -45,7 +45,7 @@ s0_launcher_hide_mode = 1
 s0_icon_size = 32
 
 [core]
-s0_active_plugins = core;bailer;detection;composite;opengl;compiztoolbox;decor;gnomecompat;mousepoll;move;snap;wall;staticswitcher;place;vpswitch;commands;imgpng;regex;session;grid;resize;obs;animation;fade;scale;unitymtgrabhandles;expo;workarounds;unityshell;
+s0_active_plugins = core;bailer;detection;composite;opengl;compiztoolbox;decor;vpswitch;commands;resize;gnomecompat;snap;regex;move;obs;imgpng;grid;staticswitcher;place;mousepoll;animation;workarounds;unitymtgrabhandles;wall;session;fade;scale;unityshell;
 s0_autoraise = false
 s0_autoraise_delay = 500
 s0_maximize_window_key = Disabled
