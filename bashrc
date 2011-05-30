@@ -85,10 +85,6 @@ alias l='ls -CF'
 
 alias uu='sudo apt-get update && sudo apt-get upgrade -y'
 
-# some exports
-export vsisvn=https://vsiaerospace.sourcerepo.com/vsiaerospace/HypersonicModelingTool/Code/trunk/InternalToolsuiteFunctions
-export millstonesvn=https://pl3.projectlocker.com/bruschill/millstone/svn
-
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
@@ -109,4 +105,5 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+#load rvm into shell as a function
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
