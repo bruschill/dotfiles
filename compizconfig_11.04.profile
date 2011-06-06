@@ -29,9 +29,9 @@ s0_put_bottomright_key = Disabled
 [place]
 s0_mode_matches = class=Gnome-terminal;
 s0_mode_modes = 1;
-s0_viewport_matches = name=chromium-browser;class=VirtualBox;name=gvim;class=Sqliteman;name=empathy;name=skype;name=Banshee;name=ubuntu-tweak;name=software-center;
-s0_viewport_x_values = 1;1;1;1;2;2;2;2;2;
-s0_viewport_y_values = 1;2;2;2;1;1;1;2;2;
+s0_viewport_matches = name=chromium-browser;class=VirtualBox;name=gvim;class=Sqliteman;name=empathy;class=Evolution;name=skype;name=Banshee;name=ubuntu-tweak;name=software-center;
+s0_viewport_x_values = 1;1;1;1;2;2;2;2;2;2;
+s0_viewport_y_values = 1;2;2;2;1;1;1;1;2;2;
 
 [fade]
 s0_fullscreen_visual_bell = true

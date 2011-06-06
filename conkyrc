@@ -30,7 +30,7 @@ stippled_borders 8
 border_width 1
 
 # Default colors and also border colors, grey90 == #e5e5e5
-default_color white
+default_color black
 default_shade_color black
 default_outline_color white
 
@@ -38,14 +38,14 @@ own_window_colour brown
 own_window_transparent yes
 
 # Text alignment, other possible values are commented
-alignment top_left
+#alignment top_left
 #alignment top_right
-#alignment bottom_left
+alignment bottom_left
 #alignment bottom_right
 
 # Gap between borders of screen and text
 gap_x 4
-gap_y 32
+gap_y 5
 
 # stuff after 'TEXT' will be formatted on screen
 
@@ -75,6 +75,10 @@ ${color } ${top_mem name 4}${top_mem mem 4}
 
 ${color }[mem]: ${color }$mem/$memmax ($memperc%)
 
-${color }[net]: 
+${color }[wired]: 
+${color}[up]: ${color }${upspeed eth0} k/s
+${color}[down]: ${color }${downspeed eth0}k/s${color}
+
+${color }[wifi]: 
 ${color}[up]: ${color }${upspeed eth1} k/s
 ${color}[down]: ${color }${downspeed eth1}k/s${color}
