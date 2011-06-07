@@ -4,6 +4,9 @@ s0_run_command_terminal_key = <Control><Alt>t
 [opengl]
 s0_texture_filter = 2
 
+[ring]
+s0_next_key = <Alt>Tab
+
 [wall]
 s0_preview_timeout = 0.050000
 s0_slide_duration = 0.050000
@@ -11,6 +14,12 @@ s0_slide_duration = 0.050000
 [obs]
 s0_opacity_matches = Tooltip | Menu | PopupMenu | DropdownMenu;
 s0_opacity_values = 90;
+
+[shift]
+s0_initiate_key = <Alt>Tab
+s0_shift_speed = 0.500000
+s0_mode = 1
+s0_reflection = false
 
 [grid]
 s0_outline_color = #3030309f
