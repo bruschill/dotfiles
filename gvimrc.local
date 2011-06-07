@@ -18,6 +18,7 @@ set showcmd                         " Show (partial) command in the last line of
 set hlsearch                        " Highlight all matches of most recent search pattern.  Use :nohlsearch to remove highlighting
 set incsearch                       " Increasingly search, updating after each letter is typed
 set showmatch                       " When ) or } is entered, cursor moves briefly to matching ( or {.  If no match, rings the error message bell.  Very useful for programming
+set matchtime=3
 set expandtab                       " Expand all tabs to their equivalent representation using spaces
 set smarttab                        " 
 
