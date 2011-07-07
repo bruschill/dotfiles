@@ -2,7 +2,7 @@ set go-=m
 set go-=T
 set go-=r
 
-color molokai
+color ir_black
 
 set novb
 set nocompatible
