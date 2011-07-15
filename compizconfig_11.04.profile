@@ -6,6 +6,8 @@ s0_texture_filter = 2
 
 [ring]
 s0_next_key = <Alt>Tab
+s0_speed = 10.400500
+s0_timestep = 0.100000
 
 [wall]
 s0_preview_timeout = 0.050000
@@ -17,14 +19,25 @@ s0_opacity_matches = Tooltip | Menu | PopupMenu | DropdownMenu;
 s0_opacity_values = 90;
 
 [shift]
-s0_initiate_key = <Alt>Tab
-s0_shift_speed = 0.500000
+s0_initiate_key = Disabled
+s0_next_key = <Alt>Tab
+s0_prev_key = <Shift><Alt>Tab
+s0_shift_speed = 2.000000
 s0_mode = 1
 s0_reflection = false
 
 [grid]
 s0_outline_color = #3030309f
 s0_fill_color = #3030304f
+
+[staticswitcher]
+s0_speed = 50.000000
+s0_timestep = 0.100000
+s0_popup_delay = 0.000000
+s0_mouse_select = false
+s0_mipmap = true
+s0_focus_on_switch = true
+s0_bring_to_front = true
 
 [put]
 s0_put_left_key = Disabled
@@ -55,7 +68,7 @@ s0_launcher_hide_mode = 1
 s0_icon_size = 32
 
 [core]
-s0_active_plugins = core;bailer;detection;composite;opengl;compiztoolbox;decor;switcher;vpswitch;commands;resize;gnomecompat;snap;regex;move;obs;imgpng;grid;place;mousepoll;animation;workarounds;unitymtgrabhandles;wall;session;fade;scale;unityshell;
+s0_active_plugins = core;bailer;detection;composite;opengl;compiztoolbox;decor;vpswitch;commands;resize;gnomecompat;snap;regex;move;obs;imgpng;grid;staticswitcher;place;mousepoll;animation;workarounds;unitymtgrabhandles;wall;session;fade;scale;unityshell;
 s0_autoraise = false
 s0_autoraise_delay = 500
 s0_maximize_window_key = Disabled

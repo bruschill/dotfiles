@@ -30,7 +30,7 @@ stippled_borders 8
 border_width 1
 
 # Default colors and also border colors, grey90 == #e5e5e5
-default_color black
+default_color white
 default_shade_color black
 default_outline_color white
 
@@ -38,9 +38,9 @@ own_window_colour brown
 own_window_transparent yes
 
 # Text alignment, other possible values are commented
-#alignment top_left
+alignment top_left
 #alignment top_right
-alignment bottom_left
+#alignment bottom_left
 #alignment bottom_right
 
 # Gap between borders of screen and text
