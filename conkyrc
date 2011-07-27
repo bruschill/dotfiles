@@ -38,9 +38,9 @@ own_window_colour brown
 own_window_transparent yes
 
 # Text alignment, other possible values are commented
-alignment top_left
+#alignment top_left
 #alignment top_right
-#alignment bottom_left
+alignment bottom_left
 #alignment bottom_right
 
 # Gap between borders of screen and text
@@ -62,13 +62,13 @@ ${color }[processes]: ${color }$processes
 ${color }[running]: ${color }$running_processes
 
 ${color }[highest cpu]:
-${color red} ${top name 1}${top cpu 1}
+${color white} ${top name 1}${top cpu 1}
 ${color } ${top name 2}${top cpu 2}
 ${color } ${top name 3}${top cpu 3}
 ${color } ${top name 4}${top cpu 4}
 
 ${color }[highest mem]:
-${color red} ${top_mem name 1}${top_mem mem 1}
+${color white} ${top_mem name 1}${top_mem mem 1}
 ${color } ${top_mem name 2}${top_mem mem 2}
 ${color } ${top_mem name 3}${top_mem mem 3}
 ${color } ${top_mem name 4}${top_mem mem 4}
