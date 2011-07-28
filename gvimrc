@@ -38,5 +38,25 @@ nmap        <silent> <Leader>t          :TlistToggle<CR>
 nmap        <silent> <Leader>n          :NERDTreeToggle<CR>
 nmap        <silent> <Leader>vr         :so ~/.gvimrc<CR>
 nmap        <silent> <Leader>ve         :e ~/.gvimrc<CR>
-"""
 
+"""PLUGINS"""
+"snipMate
+"vim-ruby
+"rails.vim
+"syntastic
+"coffee
+"cucumber
+"git
+"haml
+"jslint
+"sass
+"ack
+"bclose
+"gist
+"supertab
+"surround
+"syntastic
+"taglist
+"vim-rspec
+"yaml
+"snippet
