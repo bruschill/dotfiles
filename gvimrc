@@ -8,11 +8,10 @@ set go-=r
 
 color molokai
 
-set novb
+set t_vb=
 set nocompatible
 set nowrap
 set backup                          " Create a backup file when overwriting an existing file.
-set backupdir=~/.vim/.tmp
 set writeany                        " Allow saving to any file
 set autoread                        " Automatically read in file currently being edited if it has changed
 set confirm                         " Instead of failing a command because of unsaved changes, instead raise a dialogue asking if you wish to save changed files.
@@ -34,29 +33,5 @@ nnoremap    <silent> <C-S-p>            :bp<CR>
 nnoremap    <silent> <C-S-c>            :Bclose<CR>
 inoremap    <silent> <C-Space>          <C-X><C-O>
 
-nmap        <silent> <Leader>t          :TlistToggle<CR>
-nmap        <silent> <Leader>n          :NERDTreeToggle<CR>
-nmap        <silent> <Leader>vr         :so ~/.gvimrc<CR>
-nmap        <silent> <Leader>ve         :e ~/.gvimrc<CR>
-
-"""PLUGINS"""
-"snipMate
-"vim-ruby
-"rails.vim
-"syntastic
-"coffee
-"cucumber
-"git
-"haml
-"jslint
-"sass
-"ack
-"bclose
-"gist
-"supertab
-"surround
-"syntastic
-"taglist
-"vim-rspec
-"yaml
-"snippet
+nmap        <silent> <Leader>vr         :so ~/.gvimrc.local<CR>
+nmap        <silent> <Leader>ve         :e ~/.gvimrc.local<CR>

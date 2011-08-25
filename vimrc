@@ -2,13 +2,12 @@ filetype plugin on
 filetype indent on
 syntax on
 
-color molokai
+color ir_black
 
 set novb
 set nocompatible
 set nowrap
 set backup                          " Create a backup file when overwriting an existing file.
-set backupdir=~/.vim/.tmp
 set writeany                        " Allow saving to any file
 set autoread                        " Automatically read in file currently being edited if it has changed
 set confirm                         " Instead of failing a command because of unsaved changes, instead raise a dialogue asking if you wish to save changed files.
@@ -31,5 +30,5 @@ nnoremap    <silent> <C-S-p>            :bp<CR>
 nnoremap    <silent> <C-S-c>            :Bclose<CR>
 inoremap    <silent> <C-Space>          <C-X><C-O>
 
-nmap        <silent> <Leader>vr         :so ~/.vimrc<CR>
-nmap        <silent> <Leader>ve         :e ~/.vimrc<CR>
+nmap        <silent> <Leader>vr         :so ~/.vimrc.local<CR>
+nmap        <silent> <Leader>ve         :e ~/.vimrc.local<CR>

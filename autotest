@@ -1,9 +1,10 @@
 #!/bin/ruby
-require 'autotest/timestamp'
+require 'autotest/fsevent'
 
-module Autotest::GnomeNotify
-  def self.notify title, msg, img
-    system "notify-send '#{title}' '#{msg}' -i #{img} -t 3000"
+
+module Autotest::Growl
+  def self.growl title, msg, img, pri=0, stick="" 
+    system "growlnotify -n autotest --image #{img} -p #{pri} -m #{ msg.inspect} #{title} #{stick}" 
   end
 
   Autotest.add_hook :ran_command do |at|
@@ -14,13 +15,12 @@ module Autotest::GnomeNotify
     full_sentence, green, failures, garbage, pending = $~.to_a.map(&:to_i)
     if output
       if failures > 0
-        notify "FAIL", "#{output}", "#{image_root}/fail.png"
+        growl "FAIL", "#{output}", "#{image_root}/fail.png"
       elsif pending > 0
-        notify "Pending", "#{output}", "#{image_root}/pending.png"
+        growl "Pending", "#{output}", "#{image_root}/pending.png"
       else
-        notify "Pass", "#{output}", "#{image_root}/pass.png"
+        growl "Pass", "#{output}", "#{image_root}/pass.png"
       end
     end
   end
 end
-
