@@ -1,32 +1,37 @@
-# Path to your oh-my-zsh configuration.
+# ZSH CONFIG #
+# path to oh-my-zsh configuration.
 export ZSH=$HOME/.oh-my-zsh
 
-# Set name of the theme to load.
-# Look in ~/.oh-my-zsh/themes/
-# Optionally, if you set this to "random", it'll load a random theme each
-# time that oh-my-zsh is loaded.
-# robbyrussel, miloshadzic
+# zsh theme
 ZSH_THEME="miloshadzic"
 
-# Set to this to use case-sensitive completion
-# CASE_SENSITIVE="true"
+# ALIASES #
+# general
+alias autotest="nocorrect autotest"
 
-# Comment this out to disable weekly auto-update checks
-# DISABLE_AUTO_UPDATE="true"
+# git
+alias g="git"
+alias gs="git status"
+alias ga="git add"
+alias gc="git commit -vam"
+alias gpr="git pull --rebase"
+alias gpu="git push"
+alias gco="git checkout"
+alias grh="git reset --hard HEAD"
 
-# Uncomment following line if you want to disable colors in ls
-# DISABLE_LS_COLORS="true"
+# ruby
+alias pkruby="pkill ruby"
 
-# Uncomment following line if you want to disable autosetting terminal title.
-# DISABLE_AUTO_TITLE="true"
+# rails
+alias dbr="rake db:reset && rake db:test:prepare"
+alias dbrb="rake db:drop && rake db:create && rake db:migrate && rake db:seed && rake db:test:prepare"
 
-# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
-# Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(osx brew rvm ruby rails3 bundle git)
-
-source $ZSH/oh-my-zsh.sh
-
-# Customize to your needs...
+# PATHING
+# homebrew
 export PATH=/usr/local/bin:$PATH
 
+# rvm
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
+
+#loading the shell script
+source $ZSH/oh-my-zsh.sh
