@@ -1,4 +1,5 @@
 #!/bin/ruby
+require "autotest/fsevent"
 
 module Autotest::Growl
   def self.growl title, msg, img, pri=0, stick="" 
