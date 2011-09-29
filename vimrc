@@ -2,7 +2,7 @@ filetype plugin on
 filetype indent on
 syntax on
 
-set guifont=Inconsolata\ 12
+set guifont=Inconsolata-dz\ 10
 color ir_black
 
 set novb

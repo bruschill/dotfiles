@@ -6,8 +6,6 @@ export ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="miloshadzic"
 
 # ALIASES #
-# general
-alias autotest="nocorrect autotest"
 
 # git
 alias g="git"
@@ -31,6 +29,7 @@ alias at="autotest"
 alias spa="spork cucumber & spork"
 alias ata="AUTOFEATURE=true autotest"
 
+alias dbm="rake db:migrate"
 alias dbr="rake db:reset && rake db:test:prepare"
 alias dbrb="rake db:drop && rake db:create && rake db:migrate && rake db:seed && rake db:test:prepare"
 
