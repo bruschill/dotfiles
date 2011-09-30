@@ -5,8 +5,13 @@ export ZSH=$HOME/.oh-my-zsh
 # zsh theme
 ZSH_THEME="miloshadzic"
 
-# ALIASES #
+# sourcing the zsh shell script
+source $ZSH/oh-my-zsh.sh
 
+setopt auto_cd
+cdpath=($HOME/Documents/code)
+
+# ALIASES #
 # git
 alias g="git"
 alias gs="git status"
@@ -40,5 +45,3 @@ export PATH=/usr/local/bin:$PATH
 # rvm
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 
-#loading the shell script
-source $ZSH/oh-my-zsh.sh
