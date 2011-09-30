@@ -1,3 +1,6 @@
+# bash
+alias lh="ls -lah"
+
 # git
 alias g="git"
 alias gs="git status"
@@ -6,7 +9,8 @@ alias gc="git commit -vam"
 alias gp="git push"
 alias gup="git pull --rebase"
 alias gco="git checkout"
-alias grh="git reset --hard HEAD"
+alias gre="git reset --hard HEAD"
+alias grm="git rm"
 
 # ruby
 alias pkr="pkill ruby"
