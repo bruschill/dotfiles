@@ -7,6 +7,7 @@ alias gs="git status"
 alias ga="git add"
 alias gc="git commit -vam"
 alias gp="git push"
+alias gm="git merge"
 alias gup="git pull --rebase"
 alias gco="git checkout"
 alias gre="git reset --hard HEAD"
@@ -17,12 +18,6 @@ alias pkr="pkill ruby"
 
 # rails
 alias bi="bundle install"
-
-alias sp="spork &"
-alias at="autotest"
-
-alias spa="spork cucumber & spork"
-alias ata="AUTOFEATURE=true autotest"
 
 alias dbm="rake db:migrate"
 alias dbr="rake db:reset && rake db:test:prepare"
