@@ -26,10 +26,5 @@ set smarttab                        "
 set backspace=indent,eol,start
 
 "key mappings
-nnoremap    <silent> <C-S-n>            :bn<CR>
-nnoremap    <silent> <C-S-p>            :bp<CR>
-nnoremap    <silent> <C-S-c>            :Bclose<CR>
-inoremap    <silent> <C-Space>          <C-X><C-O>
-
 nmap        <silent> <Leader>vr         :so ~/.vimrc.local<CR>
 nmap        <silent> <Leader>ve         :e ~/.vimrc.local<CR>
