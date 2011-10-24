@@ -28,3 +28,8 @@ alias rds="bundle exec rake resque:scheduler"
 alias dbm="bundle exec rake db:migrate"
 alias dbr="bundle exec rake db:reset && rake db:test:prepare"
 alias dbrb="bundle exec rake db:drop && bundle exec rake db:create && bundle exec rake db:migrate && bundle exec rake db:seed && bundle exec rake db:test:prepare"
+
+#heroku
+alias hl="heroku logs -n 300 --app"
+alias hm="heroku run rake db:migrate --app"
+alias hs="heroku run rake db:seed --app"
