@@ -75,6 +75,11 @@ set backspace=indent,eol,start
 " setting enhanced command line completion
 set wildmenu
 
+" setting buffer switching/closing mappings
+nnoremap    <silent> <C-S-n>            :bn<CR>
+nnoremap    <silent> <C-S-p>            :bp<CR>
+nnoremap    <silent> <C-S-c>            :Bclose<CR>
+
 " gvimrc edit/reload mappings
 nmap  <silent> <Leader>ve  :e ~/.gvimrc.local<CR>
 nmap  <silent> <Leader>vr  :so ~/.gvimrc.local<CR>
