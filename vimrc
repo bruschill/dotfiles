@@ -86,3 +86,6 @@ nmap  <silent> <Leader>vr  :so ~/.gvimrc.local<CR>
 
 " cd to the directory containing the file in the buffer
 nmap  <silent> <Leader>cd  :lcd %:h<CR>
+
+"turn off help (f1)
+nmap  <F1> <nop>

@@ -9,11 +9,14 @@ syntax on
 " remove menu bar
 set go-=m
 
-" remove the tab bar (?)
+" remove the toolbar (?)
 set go-=T
 
 " remove right scrollbar
 set go-=r
+
+" remove right scrollbar
+set go-=L
 
 color molokai
 
@@ -86,3 +89,6 @@ nmap  <silent> <Leader>vr  :so ~/.gvimrc.local<CR>
 
 " cd to the directory containing the file in the buffer
 nmap  <silent> <Leader>cd  :lcd %:h<CR>
+
+"turn off help (f1)
+nmap  <F1> <nop>

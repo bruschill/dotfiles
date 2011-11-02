@@ -3,33 +3,52 @@ alias lh="ls -lah"
 
 # git
 alias g="git"
-alias gs="git status"
-alias ga="git add"
-alias gc="git commit -vam"
-alias gp="git push"
-alias gm="git merge"
-alias gup="git pull --rebase"
-alias gco="git checkout"
-alias gre="git reset --hard HEAD"
-alias grm="git rm"
+
+alias gs="g status"
+
+alias ga="g add"
+alias grm="g rm"
+alias gcp="g cherry-pick"
+
+alias gc="g commit -vam"
+alias gp="g push"
+
+alias gco="g checkout"
+alias gb="git branch"
+alias gm="g merge"
+alias grc="g --rebase --continue"
+
+alias gup="g fetch && g rebase"
+alias gre="g reset --hard HEAD"
+
+
+alias glg="g log --stat --max-count=5"
+alias glgg="g log --graph --max-count=5"
+alias gcount="g shortlog -sn"
 
 # ruby
 alias pkr="pkill ruby"
 
 # rails
 alias bi="bundle install"
+alias be="bundle exec"
 
 alias mgs="mongod run --config /usr/local/Cellar/mongodb/1.8.3-x86_64/mongod.conf"
 
 alias rd="redis-server /usr/local/etc/redis.conf"
-alias rdw="bundle exec QUEUE=* rake resque:work"
-alias rds="bundle exec rake resque:scheduler"
+alias rdw="be QUEUE=* rake resque:work"
+alias rds="be rake resque:scheduler"
 
-alias dbm="bundle exec rake db:migrate"
-alias dbr="bundle exec rake db:reset && rake db:test:prepare"
-alias dbrb="bundle exec rake db:drop && bundle exec rake db:create && bundle exec rake db:migrate && bundle exec rake db:seed && bundle exec rake db:test:prepare"
+alias dbm="be rake db:migrate"
+alias dbtp="be rake db:test:prepare"
+alias dbr="be rake db:reset && dbtp"
+alias dbrb="be rake db:drop && be rake db:create && dbm && be rake db:seed && dbtp"
 
 #heroku
-alias hl="heroku logs -n 300 --app"
-alias hm="heroku run rake db:migrate --app"
-alias hs="heroku run rake db:seed --app"
+alias hk="be heroku"
+alias hkl="hk logs -n 300 --app"
+alias hkm="hk run rake db:migrate --app"
+alias hks="hk run rake db:seed --app"
+
+#foreman
+alias fs="be foreman start -p 3000"
