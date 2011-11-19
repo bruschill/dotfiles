@@ -18,7 +18,8 @@ set go-=r
 " remove right scrollbar
 set go-=L
 
-color molokai
+color ir_black
+set guifont=Inconsolata-dz:h12
 
 " turn off the fscking audible and visual bell
 set t_vb=

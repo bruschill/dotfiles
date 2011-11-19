@@ -2,6 +2,8 @@
 export ZSH=$HOME/.oh-my-zsh
 export ZSH_HISTORY_PATH=$HOME/.zsh_history
 
+unset MAILCHECK
+
 # setting the theme
 ZSH_THEME="miloshadzic"
 
