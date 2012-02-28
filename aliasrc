@@ -15,7 +15,7 @@ alias gca="g commit -vam"
 alias gp="g push"
 
 alias gco="g checkout"
-alias gb="git branch"
+alias gb="g branch"
 alias gm="g merge"
 alias grc="g --rebase --continue"
 
@@ -32,16 +32,13 @@ alias pkr="pkill ruby"
 # rails
 alias be="bundle exec"
 
-alias mgs='mongod run -f /usr/local/Cellar/mongodb/2.0.2-x86_64/mongod.conf'
-
 alias rdd="redis-server /usr/local/etc/redis.conf"
-alias rdp="redis-server"
 alias rdw="be QUEUE=* rake resque:work"
 alias rds="be rake resque:scheduler"
 
 alias dbm="be rake db:migrate"
 alias dbtp="be rake db:test:prepare"
-alias dbr="be rake db:reset && dbtp"
+alias dbr="dbm && be rake db:reset && dbtp"
 alias dbrb="be rake db:drop && be rake db:create && dbm && be rake db:seed && dbtp"
 
 #heroku
