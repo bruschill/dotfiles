@@ -1,0 +1,1 @@
+alias fs="be foreman start -p 3000"

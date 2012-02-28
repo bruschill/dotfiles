@@ -1,0 +1,13 @@
+alias bi="bundle install"
+alias be="bundle exec"
+
+alias mgs="mongod run --config /usr/local/Cellar/mongodb/1.8.3-x86_64/mongod.conf"
+
+alias rd="redis-server /usr/local/etc/redis.conf"
+alias rdw="be QUEUE=* rake resque:work"
+alias rds="be rake resque:scheduler"
+
+alias dbm="be rake db:migrate"
+alias dbtp="be rake db:test:prepare"
+alias dbr="be rake db:reset && dbtp"
+alias dbrb="be rake db:drop && be rake db:create && dbm && be rake db:seed && dbtp"
