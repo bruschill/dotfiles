@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "SublimeRailsNav: List models",
+        "command": "list_rails_models"
+    },
+    {
+        "caption": "SublimeRailsNav: List controllers",
+        "command": "list_rails_controllers"
+    },
+    {
+        "caption": "SublimeRailsNav: List views",
+        "command": "list_rails_views"
+    },
+    {
+        "caption": "SublimeRailsNav: List javascript files",
+        "command": "list_rails_javascripts"
+    },
+    {
+        "caption": "SublimeRailsNav: List stylesheets",
+        "command": "list_rails_stylesheets"
+    }
+]

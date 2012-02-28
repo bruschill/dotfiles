@@ -1,0 +1,7 @@
+[
+    { "keys": [",", "m"], "command": "list_rails_models", "context": [{"key": "setting.command_mode"}] },
+    { "keys": [",", "c"], "command": "list_rails_controllers", "context": [{"key": "setting.command_mode"}] },
+    { "keys": [",", "v"], "command": "list_rails_views", "context": [{"key": "setting.command_mode"}] },
+    { "keys": [",", "i"], "command": "list_rails_javascripts", "context": [{"key": "setting.command_mode"}] },
+    { "keys": [",", "y"], "command": "list_rails_stylesheets", "context": [{"key": "setting.command_mode"}] }
+]
