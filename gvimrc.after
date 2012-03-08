@@ -1,9 +1,12 @@
 set guifont=Inconsolata-dz:h11
 set guioptions=egmt
 macmenu &File.New\ Tab key=<D-T>
-color molokai
+color ir_black
 set vb t_vb=
 set autoread
+
+set wildmenu
+set wildmode=full
 
 nmap  <silent> <Leader>ve  :e ~/.gvimrc.after<CR>
 nmap  <silent> <Leader>vr  :so ~/.gvimrc.after<CR>
