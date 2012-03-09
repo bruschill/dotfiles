@@ -5,23 +5,50 @@
 		[
 		]
 	},
+	"buffers":
+	[
+	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 47.0,
+		"height": 392.0,
 		"selected_items":
 		[
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"packrem",
+				"Package Control: Remove Package"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
 			],
 			[
 				"package",
-				"Package Control: Install Package"
+				"Package Control: Discover Packages"
 			],
 			[
-				":w",
-				":w - Save"
+				"brows",
+				"Preferences: Browse Packages"
+			],
+			[
+				"pref",
+				"Preferences: Settings - Default"
+			],
+			[
+				"browse",
+				"Preferences: Browse Packages"
 			],
 			[
 				":rub",
@@ -32,16 +59,8 @@
 				"Set Syntax: SQL"
 			],
 			[
-				"pref",
-				"Preferences: Settings - Default"
-			],
-			[
 				":rails",
 				"Set Syntax: HTML (Rails)"
-			],
-			[
-				"pack",
-				"Package Control: List Packages"
 			]
 		],
 		"width": 530.0
@@ -61,12 +80,24 @@
 	},
 	"file_history":
 	[
+		"/Users/bruschill/Documents/code/goodsmiths/app/controllers/carts_controller.rb",
+		"/Users/bruschill/Documents/code/goodsmiths/app/models/order.rb",
 		"/Users/bruschill/Documents/code/goodsmiths/app/controllers/checkout_process_controller.rb",
-		"/Users/bruschill/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/bruschill/Documents/code/goodsmiths/app/views/layouts/_user_bar.html.haml",
+		"/Users/bruschill/Documents/code/goodsmiths/app/views/listings/_buy_now.html.haml",
+		"/Users/bruschill/Documents/code/goodsmiths/spec/controllers/carts_controller_spec.rb",
 		"/Users/bruschill/Documents/code/goodsmiths/app/models/cart.rb",
-		"/Users/bruschill/Documents/code/goodsmiths/spec/factories/carts.rb",
+		"/Users/bruschill/Documents/code/goodsmiths/app/views/listings/show.html.haml",
+		"/Users/bruschill/Documents/code/dotfiles/st2/projects/goodsmiths.sublime-project",
 		"/Users/bruschill/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/bruschill/Documents/code/goodsmiths/spec/models/order_spec.rb",
+		"/Users/bruschill/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/bruschill/Documents/code/goodsmiths/config/routes.rb",
+		"/Users/bruschill/Documents/code/goodsmiths/db/seeds.rb",
+		"/Users/bruschill/Documents/code/goodsmiths/spec/spec_helper.rb",
 		"/Users/bruschill/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/bruschill/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/bruschill/Documents/code/goodsmiths/spec/factories/carts.rb",
 		"/Users/bruschill/Documents/code/dotfiles/sublime_text_2_config/Packages/User/Preferences.sublime-settings"
 	],
 	"find":
@@ -85,6 +116,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"super+t",
+			"tab",
+			"open",
+			"hot",
 			"      "
 		],
 		"highlight": true,
@@ -101,6 +136,14 @@
 		"whole_word": false,
 		"wrap": true
 	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
 	"incremental_find":
 	{
 		"height": 0.0
@@ -143,6 +186,62 @@
 		"selected_items":
 		[
 			[
+				"carts",
+				"app/controllers/carts_controller.rb"
+			],
+			[
+				"cart",
+				"app/models/cart.rb"
+			],
+			[
+				"userbar",
+				"app/views/layouts/_user_bar.html.haml"
+			],
+			[
+				"buynow",
+				"app/views/listings/_buy_now.html.haml"
+			],
+			[
+				"listi/sho",
+				"app/views/listings/show.html.haml"
+			],
+			[
+				"_user",
+				"app/views/layouts/_user_bar.html.haml"
+			],
+			[
+				"ordersp",
+				"spec/models/order_spec.rb"
+			],
+			[
+				"order",
+				"app/models/order.rb"
+			],
+			[
+				"check",
+				"app/controllers/checkout_process_controller.rb"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"specartcon",
+				"spec/controllers/carts_controller_spec.rb"
+			],
+			[
+				"spe",
+				"spec/spec_helper.rb"
+			],
+			[
+				"seeds",
+				"db/seeds.rb"
+			],
+			[
+				"mod/car",
+				"app/models/cart.rb"
+			],
+			[
 				"checkout",
 				"app/controllers/checkout_process_controller.rb"
 			],
@@ -153,10 +252,6 @@
 			[
 				"model/cart",
 				"app/models/cart.rb"
-			],
-			[
-				"carts",
-				"spec/factories/carts.rb"
 			]
 		],
 		"width": 0.0
@@ -166,6 +261,10 @@
 		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"",
+				"/Users/bruschill/Documents/code/dotfiles/st2/projects/goodsmiths.sublime-project"
+			]
 		],
 		"width": 380.0
 	},
