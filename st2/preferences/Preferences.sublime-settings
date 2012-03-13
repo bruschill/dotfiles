@@ -15,7 +15,7 @@
 	"auto_indent": true,
 	"auto_match_enabled": true,
 	"caret_style": "phase",
-	"color_scheme": "Packages/Color Scheme - Default/IR_Black.tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Made of Code.tmTheme",
 	"detect_indentation": true,
 	"find_selected_text": false,
 	"font_face": "Inconsolata-dz",
@@ -26,7 +26,9 @@
 	"font_size": 11,
 	"ignored_packages":
 	[
-		""
+		"",
+		"SublimeLinter",
+		"SublimeCodeIntel"
 	],
 	"indent_to_bracket": true,
 	"match_brackets": true,
@@ -44,7 +46,7 @@
 	"translate_tabs_to_spaces": true,
 	"trim_automatic_white_space": true,
 	"use_tab_stops": true,
-	"vintage_start_in_command_mode": true,
 	"vintage_ctrl_keys": true,
+	"vintage_start_in_command_mode": true,
 	"word_wrap": false
 }
