@@ -1,7 +1,7 @@
 set guifont=Inconsolata-dz:h11
 set guioptions=egmt
 macmenu &File.New\ Tab key=<D-T>
-color ir_black
+color madeofcode
 set vb t_vb=
 set autoread
 
