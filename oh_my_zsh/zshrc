@@ -6,7 +6,7 @@ export ZSH_HISTORY_PATH=$HOME/.zsh_history
 unset MAILCHECK
 
 # setting the theme
-ZSH_THEME="cloud"
+ZSH_THEME="miloshadzic"
 
 # plugins
 plugins=(brew bundler vi-mode)
