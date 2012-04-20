@@ -8,7 +8,7 @@ alias gs="g status"
 
 alias ga="g add"
 alias grm="g rm"
-alias gcp="g cherry-pick"
+alias gmv="g mv"
 
 alias gc="g commit -vm"
 alias gca="g commit -vam"
@@ -40,6 +40,7 @@ alias dbm="be rake db:migrate"
 alias dbtp="be rake db:test:prepare"
 alias dbr="dbm && be rake db:reset && dbtp"
 alias dbrb="be rake db:drop && be rake db:create && dbm && be rake db:seed && dbtp"
+alias cs="be compass compile --output-style compressed --force"
 
 #heroku
 alias hk="be heroku"
