@@ -3,6 +3,7 @@ set guioptions=egmt
 macmenu &File.New\ Tab key=<D-T>
 color madeofcode
 set vb t_vb=
+set t_Co=256
 set autoread
 
 set wildmenu
