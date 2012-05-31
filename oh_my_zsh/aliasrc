@@ -7,6 +7,7 @@ alias g="git"
 alias gs="g status"
 
 alias ga="g add"
+alias gd="g diff"
 alias grm="g rm"
 alias gmv="g mv"
 
@@ -20,33 +21,27 @@ alias gm="g merge"
 alias grc="g --rebase --continue"
 
 alias gup="g fetch && g rebase"
-alias gre="g reset --hard HEAD"
 
-alias glg="g log --stat --max-count=5"
-alias glgg="g log --graph --max-count=5"
-alias gcount="g shortlog -sn"
+alias glg="g log --stat --max-count=10"
 
 # ruby
 alias pkr="pkill ruby"
 
 # rails
 alias be="bundle exec"
+alias ber="be rake"
+alias bi="bundle install --without linux_test"
 
 alias rdd="redis-server /usr/local/etc/redis.conf"
 alias rdw="be QUEUE=* rake resque:work"
-alias rds="be rake resque:scheduler"
+alias rds="ber resque:scheduler"
 
-alias dbm="be rake db:migrate"
-alias dbtp="be rake db:test:prepare"
-alias dbr="dbm && be rake db:reset && dbtp"
-alias dbrb="be rake db:drop && be rake db:create && dbm && be rake db:seed && dbtp"
-alias cs="be compass compile --output-style compressed --force"
+alias dbm="ber db:migrate"
+alias dbtp="ber db:test:prepare"
+alias dbr="dbm && ber db:reset && dbtp"
+alias dbrb="ber db:drop && ber db:create && dbm && ber db:seed && dbtp"
 
-#heroku
-alias hk="be heroku"
-alias hkl="hk logs -n 300 --app"
-alias hkm="hk run rake db:migrate --app"
-alias hks="hk run rake db:seed --app"
+alias tsr="ber ts:rebuild"
 
 #foreman
 alias fs="be foreman start"
