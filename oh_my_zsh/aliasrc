@@ -6,6 +6,7 @@ alias g="git"
 
 alias gs="g status"
 
+alias gh="g stash"
 alias ga="g add"
 alias gd="g diff"
 alias grm="g rm"
@@ -27,21 +28,36 @@ alias glg="g log --stat --max-count=10"
 # ruby
 alias pkr="pkill ruby"
 
-# rails
+# bundler
 alias be="bundle exec"
 alias ber="be rake"
 alias bi="bundle install --without linux_test"
 
+# gemset
+alias eg="rvm --force gemset empty && gem install bundler && bi"
+
+# rails
+alias berac="be rails c"
+alias beras="be rails s"
+
+#database
+alias dbm="ber db:migrate"
+alias dbtp="ber db:test:prepare"
+alias dbr="dbm && ber db:reset"
+alias dbrb="ber db:drop && ber db:create && dbm && ber db:seed"
+
+#redis/resque
 alias rdd="redis-server /usr/local/etc/redis.conf"
 alias rdw="be QUEUE=* rake resque:work"
 alias rds="ber resque:scheduler"
 
-alias dbm="ber db:migrate"
-alias dbtp="ber db:test:prepare"
-alias dbr="dbm && ber db:reset && dbtp"
-alias dbrb="ber db:drop && ber db:create && dbm && ber db:seed && dbtp"
-
+#thinking sphinx
 alias tsr="ber ts:rebuild"
+
+# guard
+alias begr="be guard -g rspec"
+alias begc="be guard -g cucumber"
+alias begrc="be guard -g rspec cucumber"
 
 #foreman
 alias fs="be foreman start"
