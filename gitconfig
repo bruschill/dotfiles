@@ -1,0 +1,9 @@
+[user]
+	name = B. Ruschill
+	email = brandon.ruschill@gmail.com
+[mergetool]
+	keepBackup = false
+[core]
+	editor = vim
+[merge]
+	tool = opendiff
