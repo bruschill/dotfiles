@@ -1,4 +1,0 @@
-[
-  {"keys": ["ctrl+w, h"], "command": "focus_group", "args": { "group": 1}},
-  {"keys": ["ctrl+w, l"], "command": "focus_group", "args": { "group": 2}}
-]
