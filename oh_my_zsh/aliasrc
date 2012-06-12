@@ -38,8 +38,9 @@ alias eg="rvm --force gemset empty && gem install bundler && bi"
 
 # rails
 alias berr="ber routes"
-alias berac="be rails c"
-alias beras="be rails s"
+alias rac="be rails c"
+alias ras="be rails s"
+alias radb="be rails db"
 
 #database
 alias dbm="ber db:migrate"
