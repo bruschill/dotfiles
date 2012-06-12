@@ -37,6 +37,7 @@ alias bi="bundle install --without linux_test"
 alias eg="rvm --force gemset empty && gem install bundler && bi"
 
 # rails
+alias berr="ber routes"
 alias berac="be rails c"
 alias beras="be rails s"
 
