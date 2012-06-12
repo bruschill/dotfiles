@@ -21,10 +21,6 @@ imap <D-M-Right> <Esc> <C-w>l
 map <D-M-Left> <C-w>h
 imap <D-M-Left> <C-w>h
 
-nnoremap    <silent> <C-S-n>            :bn<CR>
-nnoremap    <silent> <C-S-p>            :bp<CR>
-nnoremap    <silent> <C-S-c>            :Bclose<CR>
-
 macmenu Window.Toggle\ Full\ Screen\ Mode key=<D-CR>
 if has("statusline") && !&cp
   set statusline=
@@ -33,3 +29,4 @@ if has("statusline") && !&cp
 
   set statusline+=%=Line:%l/%L\[%p%%]\|Col:%v
 endif
+
