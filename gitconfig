@@ -3,6 +3,8 @@
 	email = brandon.ruschill@gmail.com
 [mergetool]
 	keepBackup = false
+	prompt = false
+	conflictstyle = diff3
 [core]
 	editor = vim
 [merge]
