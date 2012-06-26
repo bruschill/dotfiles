@@ -19,6 +19,7 @@ alias gp="g push"
 alias gco="g checkout"
 alias gb="g branch"
 alias gm="g merge"
+alias gmt="g mergetool"
 alias grc="g --rebase --continue"
 
 alias gup="g fetch && g rebase"
