@@ -7,3 +7,4 @@ IRB.conf[:USE_READLINE] = true
 def clear
   system('clear')
 end
+alias :clr :clear
