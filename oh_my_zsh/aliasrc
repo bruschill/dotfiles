@@ -43,12 +43,14 @@ alias berr="ber routes"
 alias rc="be rails c"
 alias rs="be rails s"
 alias rdb="be rails db"
+alias rg="be rails g"
+alias rgm="rg migration"
 
 #database
 alias dbm="ber db:migrate"
 alias dbtp="ber db:test:prepare"
 alias dbr="dbm && ber db:reset"
-alias dbrb="ber db:drop && ber db:create && dbm && ber db:seed"
+alias dbrb="ber db:drop && ber db:create && dbm && ber db:seed && dbtp"
 
 #redis/resque
 alias rdd="redis-server /usr/local/etc/redis.conf"
@@ -59,9 +61,8 @@ alias rds="ber resque:scheduler"
 alias tsr="ber ts:rebuild"
 
 # guard
-alias begr="be guard -g rspec"
-alias begc="be guard -g cucumber"
-alias begrc="be guard -g rspec cucumber"
+alias grs="be guard -g rspec"
+alias gcu="be guard -g cucumber"
 
 #foreman
 alias fs="be foreman start"
