@@ -1,6 +1,7 @@
 # bash
 alias clr="clear"
 alias lh="ls -lah"
+alias pag="ps aux | grep"
 
 # git
 alias g="git"
