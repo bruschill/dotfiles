@@ -9,7 +9,7 @@ unset MAILCHECK
 ZSH_THEME="miloshadzic"
 
 # plugins
-plugins=(vi-mode)
+plugins=(brew vi-mode)
 
 # sourcing the zsh shell script
 source $ZSH/oh-my-zsh.sh
