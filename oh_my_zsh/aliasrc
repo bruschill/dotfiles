@@ -34,10 +34,10 @@ alias pkr="pkill ruby"
 # bundler
 alias be="bundle exec"
 alias ber="be rake"
-alias bi="be bundle install --without linux_test"
+alias bi="bundle install --without linux_test"
 
 # gemset
-alias eg="rvm --force gemset empty && gem install bundler && bi"
+alias eg="rvm --force gemset empty && gem install bundle && bi"
 
 # rails
 alias berr="ber routes"
@@ -67,6 +67,9 @@ alias tsr="ber ts:rebuild"
 # guard
 alias grs="be guard -g rspec"
 alias gcu="be guard -g cucumber"
+
+#testing
+alias atst="be autotest"
 
 #foreman
 alias fs="be foreman start"
