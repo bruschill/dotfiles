@@ -1,5 +1,6 @@
 # bash
 alias clr="clear"
+alias ls="ls -GFh"
 alias lh="ls -lah"
 alias pag="ps aux | grep"
 
