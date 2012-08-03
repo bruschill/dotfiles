@@ -53,7 +53,7 @@ alias dbc="ber db:create"
 alias dbm="ber db:migrate"
 alias dbs="ber db:seed"
 alias dbtp="ber db:test:prepare"
-alias dbr="dbm && ber db:reset"
+alias dbr="dbm && ber db:reset && dbtp"
 alias dbrb="dbd && dbc && dbm && dbs && dbtp"
 
 #redis/resque
