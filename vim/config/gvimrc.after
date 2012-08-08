@@ -9,6 +9,8 @@ set autoread
 set wildmenu
 set wildmode=full
 
+let mapleader = ","
+
 nmap  <silent> <Leader>ve  :e ~/.gvimrc.after<CR>
 nmap  <silent> <Leader>vr  :so ~/.gvimrc.after<CR>
 
@@ -29,4 +31,3 @@ if has("statusline") && !&cp
 
   set statusline+=%=Line:%l/%L\[%p%%]\|Col:%v
 endif
-
