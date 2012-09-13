@@ -1,8 +1,9 @@
 set guifont=Inconsolata-dz:h11
 set guioptions=egmt
 macmenu &File.New\ Tab key=<D-T>
-set t_Co=256
-color madeofcode
+set background=dark
+colorscheme solarized
+syntax enable
 set vb t_vb=
 set autoread
 
@@ -23,12 +24,6 @@ map <D-M-Right> <C-w>l
 imap <D-M-Right> <Esc> <C-w>l
 map <D-M-Left> <C-w>h
 imap <D-M-Left> <C-w>h
-
-" rails.vim mappings
-map <Leader>va :AV<cr>
-map <Leader>vc :RVcontroller<cr>
-map <Leader>vm :RVmodel<cr>
-map <Leader>vv :RVview<cr>
 
 macmenu Window.Toggle\ Full\ Screen\ Mode key=<D-CR>
 if has("statusline") && !&cp
