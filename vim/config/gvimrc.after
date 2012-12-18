@@ -1,19 +1,18 @@
+syntax enable
+let g:solarized_termcolors=256
+set background=dark
+colorscheme solarized
 set guifont=Inconsolata-dz:h11
 set guioptions=egmt
 macmenu &File.New\ Tab key=<D-T>
-set background=dark
-colorscheme solarized
-syntax enable
 set vb t_vb=
 set autoread
 
 set wildmenu
 set wildmode=full
 
-let mapleader = ","
-
-nmap  <silent> <Leader>re  :e ~/.gvimrc.after<CR>
-nmap  <silent> <Leader>rr  :so ~/.gvimrc.after<CR>
+nmap  <silent> <Leader>ve  :e ~/.gvimrc.after<CR>
+nmap  <silent> <Leader>vr  :so ~/.gvimrc.after<CR>
 
 " split navigation
 map <D-M-Up> <C-w>k
@@ -33,3 +32,6 @@ if has("statusline") && !&cp
 
   set statusline+=%=Line:%l/%L\[%p%%]\|Col:%v
 endif
+
+" make syntastic check for errors on open of file
+let g:syntastic_check_on_open=1
