@@ -1,8 +1,9 @@
 # bash
-alias clr="clear"
 alias ls="ls -GFh"
 alias lh="ls -lah"
-alias pag="ps aux | grep"
+
+#homebrew
+alias brewup="brew update && brew upgrade && brew cleanup -s"
 
 # git
 alias g="git"
@@ -23,9 +24,8 @@ alias gco="g checkout"
 alias gb="g branch"
 alias gm="g merge"
 alias gmt="g mergetool"
-alias grc="g --rebase --continue"
 
-alias gup="g fetch && g rebase"
+alias gup="g pull --rebase"
 
 alias glg="g log --stat --max-count=10"
 
@@ -38,7 +38,7 @@ alias ber="be rake"
 alias bi="bundle install --without linux_test"
 
 # gemset
-alias eg="rvm --force gemset empty && gem install bundle && bi"
+alias eg="rvm --force gemset empty && gem install bundler && bi"
 
 # rails
 alias berr="ber routes"
@@ -67,10 +67,12 @@ alias tsr="ber ts:rebuild"
 
 # guard
 alias grs="be guard -g rspec"
-alias gcu="be guard -g cucumber"
 
 #testing
 alias atst="be autotest"
 
 #foreman
 alias fs="be foreman start"
+
+#other
+alias res="rm -rf /usr/local/var/mongodb/re && mkdir /usr/local/var/mongodb/re && chmod 777 /usr/local/var/mongodb/re && fs"
