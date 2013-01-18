@@ -1,3 +1,6 @@
+map <Leader>gp :Gist -p
+map <Leader>gP :Gist -P
+
 if executable("pbcopy")
 	" The copy command
 	let g:gist_clip_command = 'pbcopy'
