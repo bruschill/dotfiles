@@ -184,6 +184,8 @@
 	<true/>
 	<key>FontWidthSpacing</key>
 	<real>1.004032258064516</real>
+	<key>Linewrap</key>
+	<true/>
 	<key>ProfileCurrentVersion</key>
 	<real>2.02</real>
 	<key>RunCommandAsShell</key>
@@ -226,7 +228,7 @@
 	<key>UseBoldFonts</key>
 	<false/>
 	<key>UseBrightBold</key>
-	<false/>
+	<true/>
 	<key>blackColour</key>
 	<data>
 	BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISECE5TT2JqZWN0AIWEAWMBhARm
@@ -300,7 +302,7 @@
 	ZmZmg6i7UT+DUATePYMl2hA+AYY=
 	</data>
 	<key>shellExitAction</key>
-	<integer>1</integer>
+	<integer>2</integer>
 	<key>type</key>
 	<string>Window Settings</string>
 	<key>whiteColour</key>
