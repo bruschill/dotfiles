@@ -9,3 +9,5 @@
 	editor = vim
 [merge]
 	tool = opendiff
+[push]
+	default = simple
