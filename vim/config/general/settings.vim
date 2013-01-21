@@ -43,7 +43,6 @@ set wildignore+=*.swp,*~,._*
 
 "backup/swap directories
 set backupdir=~/.vim/.backup/    " where to put backup files.
-set directory=~/.vim/.temp/      " where to put swap files.
 
 "autosave when focus lost
 if has("autocmd")
