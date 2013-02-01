@@ -55,7 +55,7 @@ alias dbm="ber db:migrate"
 alias dbs="ber db:seed"
 alias dbtp="ber db:test:prepare"
 alias dbr="dbm && ber db:reset && dbtp"
-alias dbrb="dbd && dbc && dbm && dbs && dbtp"
+alias dbrb="dbd && dbc && dbm && dbtp"
 
 #redis/resque
 alias rdd="redis-server /usr/local/etc/redis.conf"
