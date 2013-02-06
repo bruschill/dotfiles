@@ -10,6 +10,7 @@ unsetopt auto_name_dirs
 setopt nullglob
 
 alias npm="noglob npm"
+alias rspec="noglob rspec"
 
 ZSH_THEME="miloshadzic"
 
