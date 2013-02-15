@@ -19,5 +19,7 @@ plugins=(osx vi-mode npm)
 source $ZSH/oh-my-zsh.sh
 source $HOME/.aliasrc
 
-export NODE_PATH=/usr/local/lib/jsctags/:$NODE_PATH
+NODE_PATH='/usr/local/lib/jsctags:${NODE_PATH}'
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/npm/bin
+
+[[ -s "/Users/bruschill/.rvm/scripts/rvm" ]] && source "/Users/bruschill/.rvm/scripts/rvm"
