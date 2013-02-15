@@ -20,6 +20,4 @@ source $ZSH/oh-my-zsh.sh
 source $HOME/.aliasrc
 
 export NODE_PATH=/usr/local/lib/jsctags/:$NODE_PATH
-export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/npm/bin:/.rvm/bin
-
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/npm/bin
