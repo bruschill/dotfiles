@@ -8,6 +8,6 @@
 [core]
 	editor = vim
 [merge]
-	tool = vimdiff
+	tool = opendiff
 [github]
 	user = bruschill
