@@ -19,7 +19,6 @@ plugins=(osx vi-mode npm)
 source $ZSH/oh-my-zsh.sh
 source $HOME/.aliasrc
 
-NODE_PATH=/usr/local/lib/jsctags/:$NODE_PATH
-PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/npm/bin
+export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/npm
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
