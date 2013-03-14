@@ -1,33 +1,33 @@
+# git
+alias g="git"
+
+alias gs="g status"
+alias gh="g stash"
+alias ghp="gh pop"
+alias grm="g rm"
+alias gmv="g mv"
+alias gb="g branch"
+alias ga="g add"
+alias gaa="g add --all"
+alias gc="g commit -m"
+alias gcam="g commit --amend"
+alias gco="g checkout"
+alias gm="g merge"
+alias gd="g diff"
+alias gds="g diff --stat=160,120"
+alias gfa="g fetch --all"
+alias gpo="g push origin"
+alias gdiv="g divergence"
+alias ggn="g goodness"
+alias gl=". ~/.githelpers && pretty_git_log"
+alias glr="gl -30"
+
 # bash
 alias ls="ls -GFh"
 alias lh="ls -lah"
 
 #homebrew
 alias brewup="brew update && brew upgrade && brew cleanup -s"
-
-# git
-alias g="git"
-
-alias gs="g status"
-
-alias gh="g stash"
-alias ga="g add"
-alias gd="g diff"
-alias grm="g rm"
-alias gmv="g mv"
-
-alias gc="g commit -vm"
-alias gca="g commit -vam"
-alias gp="g push"
-
-alias gco="g checkout"
-alias gb="g branch"
-alias gm="g merge"
-alias gmt="g mergetool"
-
-alias gup="g pull --rebase"
-
-alias glg="g log --stat --max-count=10"
 
 # ruby
 alias pkr="pkill ruby"
