@@ -1,2 +1,5 @@
 --type-set
 haml=.haml
+
+--type-set
+coffee-script=.coffee
