@@ -3,6 +3,7 @@ alias g="git"
 
 alias gs="g status"
 alias gh="g stash"
+alias grb="g rebase -i"
 alias ghp="gh pop"
 alias grm="g rm"
 alias gmv="g mv"
@@ -16,18 +17,16 @@ alias gco="g checkout"
 alias gm="g merge"
 alias gd="g diff"
 alias gds="g diff --stat=160,120"
-alias gfa="g fetch --all"
+alias gdc="g diff --cached --stat=160,120"
+alias gup="g pull --rebase"
 alias gpo="g push origin"
-alias gdiv="g divergence"
-alias ggn="g goodness"
-alias gl=". ~/.githelpers && pretty_git_log"
-alias glr="gl -30"
+alias gl=". ~/.githelpers && pretty_git_log -30"
 
 # bash
 alias ls="ls -GFh"
 alias lh="ls -lah"
 
-#homebrew
+# homebrew
 alias brewup="brew update && brew upgrade && brew cleanup -s"
 
 # ruby
@@ -49,7 +48,7 @@ alias rdb="be rails db"
 alias rg="be rails g"
 alias rgm="rg migration"
 
-#database
+# database
 alias dbd="ber db:drop"
 alias dbc="ber db:create"
 alias dbm="ber db:migrate"
@@ -58,22 +57,14 @@ alias dbtp="ber db:test:prepare"
 alias dbr="dbm && ber db:reset && dbtp"
 alias dbrb="dbd && dbc && dbm && dbtp"
 
-#redis/resque
-alias rdd="redis-server /usr/local/etc/redis.conf"
-alias rdw="be QUEUE=* rake resque:work"
-alias rds="ber resque:scheduler"
-
-#thinking sphinx
-alias tsr="ber ts:rebuild"
-
 # guard
 alias grs="be guard -g rspec"
 
-#testing
+# testing
 alias atst="be autotest"
 
-#foreman
+# foreman
 alias fs="be foreman start"
 
-#other
+# other
 alias res="rm -rf /usr/local/var/mongodb/re && mkdir /usr/local/var/mongodb/re && chmod 777 /usr/local/var/mongodb/re && fs"
