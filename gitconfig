@@ -2,7 +2,7 @@
 	name = B. Ruschill
 	email = brandon.ruschill@gmail.com
 [color]
-  ui = auto
+	ui = true
 [core]
 	editor = vim
 [merge]
