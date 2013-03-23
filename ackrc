@@ -3,3 +3,9 @@ haml=.haml
 
 --type-set
 coffee-script=.coffee
+
+--type-set
+jade=.jade
+
+--type-set
+yaml=.yml,.yaml
