@@ -21,7 +21,7 @@ alias gdc="g diff --cached"
 alias gup="g pull --rebase"
 alias gp="g push"
 alias gpo="gp origin"
-alias gl=". ~/.githelpers && pretty_git_log -30"
+alias gl="pretty_git_log -30"
 
 # bash
 alias ls="ls -GFh"
