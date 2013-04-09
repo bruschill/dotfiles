@@ -14,7 +14,7 @@ alias rspec="noglob rspec"
 
 ZSH_THEME="miloshadzic"
 
-plugins=(osx vi-mode npm)
+plugins=(osx vi-mode npm colored-man)
 
 source $ZSH/oh-my-zsh.sh
 source $HOME/.aliasrc
