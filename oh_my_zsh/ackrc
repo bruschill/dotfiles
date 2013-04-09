@@ -9,3 +9,6 @@ jade=.jade
 
 --type-set
 yaml=.yml,.yaml
+
+--type-set
+sass=.scss
