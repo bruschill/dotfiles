@@ -20,6 +20,5 @@ source $ZSH/oh-my-zsh.sh
 source $HOME/.aliasrc
 
 export NODE_PATH=/usr/local/share/npm/bin:/usr/local/share/npm/lib/node_modules
-export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/npm/bin
-
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/npm/bin:
+export PATH=$PATH:$HOME/.rvm/bin
