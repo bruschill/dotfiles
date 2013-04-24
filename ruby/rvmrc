@@ -1,0 +1,5 @@
+rvm_path="$HOME/.rvm"
+rvm_gem_options="--no-rdoc --no-ri"
+rvm_configure_env=(CFLAGS=-O3)
+rvm_make_flags="-j4"
+rvm_archflags="-arch x86_64"
