@@ -2,7 +2,7 @@
 haml=.haml
 
 --type-set
-coffee-script=.coffee
+coffeescript=.coffee
 
 --type-set
 jade=.jade
