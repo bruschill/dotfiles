@@ -19,6 +19,11 @@ plugins=(vi-mode colored-man vagrant)
 source $ZSH/oh-my-zsh.sh
 source $HOME/.aliasrc
 
+export LC_CTYPE="utf-8"
+
+export SSL_CERT_FILE=/usr/local/opt/curl-ca-bundle/share/ca-bundle.crt
+
 export NODE_PATH=/usr/local/share/npm/bin:/usr/local/share/npm/lib/node_modules
-export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/npm/bin:
-export PATH=$PATH:$HOME/.rvm/bin
+export PATH=$PATH:$NODE_PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
