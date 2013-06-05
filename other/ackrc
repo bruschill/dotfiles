@@ -1,3 +1,5 @@
+--ignore-dir=log
+
 --type-set
 haml=.haml
 
