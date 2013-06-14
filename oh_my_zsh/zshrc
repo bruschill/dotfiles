@@ -1,8 +1,11 @@
 ZSH=$HOME/.oh-my-zsh
 ZSH_HISTORY_PATH=$HOME/.zsh_history
 ZSH_CUSTOM=$HOME/.zsh_profile.d
+ZSH_THEME="miloshadzic"
 
 DISABLE_AUTO_UPDATE=true
+
+plugins=(vi-mode colored-man vagrant)
 
 unset MAILCHECK
 unsetopt auto_name_dirs
@@ -12,14 +15,8 @@ setopt nullglob
 alias npm="noglob npm"
 alias rspec="noglob rspec"
 
-ZSH_THEME="miloshadzic"
-
-plugins=(vi-mode colored-man vagrant)
-
 source $ZSH/oh-my-zsh.sh
 source $HOME/.aliasrc
-
-prepend() { [ -d "$2" ] && eval $1=\"$2\$\{$1:+':'\$$1\}\" && export $1 ; }
 
 prepend PATH /usr/local/share/npm/lib/node_modules
 prepend PATH /usr/local/share/npm/bin
