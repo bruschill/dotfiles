@@ -36,10 +36,6 @@ alias pkr="pkill ruby"
 # bundler
 alias be="bundle exec"
 alias ber="be rake"
-alias bi="bundle install --without=linux_test data_loading"
-
-# gemset
-alias eg="rvm --force gemset empty && gem install bundler && bi"
 
 # rails
 alias berr="ber routes"
