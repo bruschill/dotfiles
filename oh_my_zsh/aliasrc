@@ -20,6 +20,7 @@ alias gd="g diff"
 alias gdc="g diff --cached"
 alias gup="g pull"
 alias gp="g push"
+alias gpu="gp -u origin"
 alias gpo="gp origin"
 alias gl="pretty_git_log -30"
 
@@ -48,11 +49,11 @@ alias rgm="rg migration"
 # database
 alias dbd="ber db:drop"
 alias dbc="ber db:create"
-alias dbm="ber db:migrate"
-alias dbs="ber db:seed"
 alias dbtp="ber db:test:prepare"
-alias dbr="dbm && ber db:reset && dbtp"
-alias dbrb="dbd && dbc && dbm && dbtp"
+alias dbm="ber db:migrate && dbtp"
+alias dbs="ber db:seed"
+alias dbr="dbm && ber db:reset"
+alias dbrb="dbd && dbc && dbm"
 
 # guard
 alias grs="be guard -g rspec"
