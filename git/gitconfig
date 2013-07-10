@@ -5,6 +5,8 @@
 	ui = true
 [core]
 	editor = vim
+	eol = lf
+	autocrlf = input
 [merge]
 	tool = Kaleidoscope
 [mergetool "Kaleidoscope"]
