@@ -6,7 +6,7 @@
 [core]
 	editor = vim
 	eol = lf
-	autocrlf = input
+	safecrlf = false
 [merge]
 	tool = Kaleidoscope
 [mergetool "Kaleidoscope"]
