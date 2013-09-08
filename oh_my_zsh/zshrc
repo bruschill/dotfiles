@@ -5,14 +5,14 @@ ZSH_THEME="miloshadzic"
 
 DISABLE_AUTO_UPDATE=true
 
-plugins=(vi-mode colored-man vagrant)
+plugins=(vi-mode colored-man vagrant history-substring-search)
 
 unset MAILCHECK
 unsetopt auto_name_dirs
+unsetopt nomatch
 
 setopt nullglob
 
-alias npm="noglob npm"
 alias rspec="noglob rspec"
 
 source $ZSH/oh-my-zsh.sh
@@ -22,4 +22,8 @@ prepend PATH /usr/local/share/npm/lib/node_modules
 prepend PATH /usr/local/share/npm/bin
 prepend PATH /usr/local/bin
 
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+# Add RVM to PATH for scripting
+PATH=$PATH:$HOME/.rvm/bin
+
+# Add GOPATH to PATH for building Go executables
+PATH=$PATH:$GOPATH
