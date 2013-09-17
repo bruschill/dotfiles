@@ -23,7 +23,8 @@ prepend PATH /usr/local/share/npm/bin
 prepend PATH /usr/local/bin
 
 # Add RVM to PATH for scripting
-PATH=$PATH:$HOME/.rvm/bin
 
 # Add GOPATH to PATH for building Go executables
 PATH=$PATH:$GOPATH
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
