@@ -30,20 +30,15 @@ alias lh="ls -lah"
 # homebrew
 alias brewup="brew update && brew upgrade && brew cleanup -s && brew prune"
 
-# ruby
-alias pkr="pkill ruby"
-
 # bundler
 alias be="bundle exec"
 alias ber="be rake"
 
 # rails
-alias berr="ber routes"
 alias rc="be rails c"
 alias rs="be rails s"
 alias rdb="be rails db"
 alias rg="be rails g"
-alias rgm="rg migration"
 
 # database
 alias dbd="ber db:drop"
@@ -53,9 +48,6 @@ alias dbm="ber db:migrate && dbtp"
 alias dbs="ber db:seed"
 alias dbr="dbm && ber db:reset"
 alias dbrb="dbd && dbc && dbm"
-
-# guard
-alias grs="be guard -g rspec"
 
 # testing
 alias atst="be autotest"
