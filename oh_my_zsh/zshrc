@@ -18,13 +18,12 @@ alias rspec="noglob rspec"
 source $ZSH/oh-my-zsh.sh
 source $HOME/.aliasrc
 
+# Add RVM to PATH for scripting
+
 prepend PATH /usr/local/share/npm/lib/node_modules
 prepend PATH /usr/local/share/npm/bin
 prepend PATH /usr/local/bin
-
-# Add RVM to PATH for scripting
+prepend PATH $HOME/.rvm/bin
 
 # Add GOPATH to PATH for building Go executables
 PATH=$PATH:$GOPATH
-
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
