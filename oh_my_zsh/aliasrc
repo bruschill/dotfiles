@@ -30,6 +30,9 @@ alias lh="ls -lah"
 # homebrew
 alias brewup="brew update && brew upgrade && brew cleanup -s && brew prune"
 
+# rbenv
+alias rnv="rbenv"
+
 # bundler
 alias be="bundle exec"
 alias ber="be rake"
@@ -54,6 +57,3 @@ alias atst="be autotest"
 
 # foreman
 alias fs="be foreman start"
-
-# other
-alias res="rm -rf /usr/local/var/mongodb/re && mkdir /usr/local/var/mongodb/re && chmod 777 /usr/local/var/mongodb/re && fs"
