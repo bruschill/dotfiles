@@ -1,4 +1,4 @@
-export LC_CTYPE="utf-8"
+export LC_CTYPE="UTF-8"
 
 export SSL_CERT_FILE=/usr/local/opt/curl-ca-bundle/share/ca-bundle.crt
 
@@ -8,3 +8,5 @@ export RBENV_VERSION=2.0.0-p247
 
 export RUBY_GC_MALLOC_LIMIT=90000000
 export RUBY_FREE_MIN=200000
+
+export ARCHFLAGS="-arch x86_64"
