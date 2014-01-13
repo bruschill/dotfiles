@@ -11,4 +11,5 @@ export RUBY_FREE_MIN=200000
 
 export ARCHFLAGS="-arch x86_64"
 
+export JAVA_HOME=$(/usr/libexec/java_home)
 export ANDROID_HOME="~/Documents/code/android_sdk"
