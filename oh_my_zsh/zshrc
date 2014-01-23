@@ -5,7 +5,7 @@ ZSH_THEME="miloshadzic"
 
 DISABLE_AUTO_UPDATE=true
 
-plugins=(vi-mode colored-man vagrant history-substring-search)
+plugins=(vi-mode colored-man history-substring-search)
 
 unset MAILCHECK
 unsetopt auto_name_dirs
