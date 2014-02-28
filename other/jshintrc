@@ -6,6 +6,5 @@
   "indent": 2,
   "trailing": true,
   "unused": true,
-  "strict": true,
   "quotmark": "single"
 }
