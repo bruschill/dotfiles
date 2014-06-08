@@ -8,6 +8,3 @@ export RUBY_GC_MALLOC_LIMIT=90000000
 export RUBYGC_HEAP_FREE_SLOTS=200000
 
 export ARCHFLAGS="-arch x86_64"
-
-export JAVA_HOME=$(/usr/libexec/java_home)
-export ANDROID_HOME="~/Documents/code/android_sdk"
