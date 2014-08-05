@@ -17,6 +17,3 @@ alias rspec="noglob rspec"
 
 source $ZSH/oh-my-zsh.sh
 source $HOME/.aliasrc
-
-prepend PATH ./node_modules/.bin
-prepend PATH /usr/local/bin
