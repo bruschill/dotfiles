@@ -56,4 +56,4 @@ alias dbrb="dbd && dbc && dbm"
 alias atst="be autotest"
 
 # foreman
-alias fs="be foreman start"
+alias fs="foreman start"
