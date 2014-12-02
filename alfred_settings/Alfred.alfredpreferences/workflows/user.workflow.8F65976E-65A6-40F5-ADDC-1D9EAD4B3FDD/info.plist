@@ -223,9 +223,15 @@ esac</string>
 				<integer>0</integer>
 				<key>argument</key>
 				<integer>0</integer>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
 				<integer>0</integer>
 			</dict>
 			<key>type</key>
@@ -233,7 +239,7 @@ esac</string>
 			<key>uid</key>
 			<string>40A1BE6D-B9D8-4834-B766-AD812AF7C649</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -372,9 +378,15 @@ esac</string>
 				<integer>3</integer>
 				<key>argumenttext</key>
 				<string>ft</string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
 				<integer>0</integer>
 			</dict>
 			<key>type</key>
@@ -382,7 +394,7 @@ esac</string>
 			<key>uid</key>
 			<string>019499E5-AAB4-429E-8B17-626753A422AD</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -393,9 +405,15 @@ esac</string>
 				<integer>3</integer>
 				<key>argumenttext</key>
 				<string>ff </string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
 				<integer>0</integer>
 			</dict>
 			<key>type</key>
@@ -403,7 +421,7 @@ esac</string>
 			<key>uid</key>
 			<string>47E1F069-0AAB-4740-B2CE-1F87D53845C9</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -414,9 +432,15 @@ esac</string>
 				<integer>3</integer>
 				<key>argumenttext</key>
 				<string>fp </string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
 				<integer>0</integer>
 			</dict>
 			<key>type</key>
@@ -424,7 +448,7 @@ esac</string>
 			<key>uid</key>
 			<string>90CB2512-132A-41CE-9430-B02838206D99</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -435,9 +459,15 @@ esac</string>
 				<integer>3</integer>
 				<key>argumenttext</key>
 				<string>fc </string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
 				<integer>0</integer>
 			</dict>
 			<key>type</key>
@@ -445,7 +475,7 @@ esac</string>
 			<key>uid</key>
 			<string>C61B59E0-D56C-4F5B-825F-27DD8C69BF1C</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -456,9 +486,15 @@ esac</string>
 				<integer>3</integer>
 				<key>argumenttext</key>
 				<string>ti </string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
 				<integer>0</integer>
 			</dict>
 			<key>type</key>
@@ -466,7 +502,7 @@ esac</string>
 			<key>uid</key>
 			<string>827A8919-71BE-412D-AB90-1224C59166E9</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -477,9 +513,15 @@ esac</string>
 				<integer>3</integer>
 				<key>argumenttext</key>
 				<string>dt </string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
 				<integer>0</integer>
 			</dict>
 			<key>type</key>
@@ -487,7 +529,7 @@ esac</string>
 			<key>uid</key>
 			<string>3262B1A1-F05F-471A-9DA9-2A31077DBC02</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
