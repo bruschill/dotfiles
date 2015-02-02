@@ -2,11 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>fallbacks</key>
-	<array/>
-	<key>showContacts</key>
-	<false/>
-	<key>showPreferences</key>
-	<false/>
+	<key>theme</key>
+	<string>alfred.theme.custom.0B9EA47F-E13F-4BB0-8FDB-C784F014234B</string>
 </dict>
 </plist>
