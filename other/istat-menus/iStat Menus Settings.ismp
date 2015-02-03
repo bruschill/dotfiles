@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>build</key>
+	<real>585</real>
+	<key>license</key>
+	<string>4592-1927-4925-1155-7866</string>
+	<key>preferences</key>
+	<dict>
+		<key>Diagnostics_Enabled</key>
+		<integer>1</integer>
+		<key>Diagnostics_Sent_3.1</key>
+		<true/>
+		<key>Disks_MenubarGraphActivityCustomColors</key>
+		<integer>0</integer>
+		<key>Disks_MenubarGraphActivityWidth</key>
+		<real>31</real>
+		<key>Disks_MenubarMode</key>
+		<string>100,8</string>
+		<key>DropdownTheme</key>
+		<integer>1</integer>
+		<key>Memory_AppFormat</key>
+		<integer>0</integer>
+		<key>Memory_DisplayFormat</key>
+		<integer>1</integer>
+		<key>Memory_MenubarMode</key>
+		<string>100,0</string>
+		<key>MenubarSkinColor</key>
+		<integer>8</integer>
+		<key>Network_MenubarMode</key>
+		<string>0,100</string>
+	</dict>
+	<key>version</key>
+	<real>5.0300002098083496</real>
+</dict>
+</plist>
