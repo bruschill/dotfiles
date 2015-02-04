@@ -30,6 +30,8 @@
 		<integer>8</integer>
 		<key>Network_MenubarMode</key>
 		<string>0,100</string>
+		<key>Sensors_MenubarMode</key>
+		<string>100,3</string>
 	</dict>
 	<key>version</key>
 	<real>5.0300002098083496</real>
