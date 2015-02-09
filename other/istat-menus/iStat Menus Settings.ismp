@@ -14,8 +14,10 @@
 		<true/>
 		<key>Disks_MenubarGraphActivityCustomColors</key>
 		<integer>0</integer>
+		<key>Disks_MenubarGraphActivityRead</key>
+		<string>1.00 1.00 1.00 1.00</string>
 		<key>Disks_MenubarGraphActivityWidth</key>
-		<real>31</real>
+		<real>29</real>
 		<key>Disks_MenubarMode</key>
 		<string>100,8</string>
 		<key>DropdownTheme</key>
@@ -32,6 +34,8 @@
 		<string>0,100</string>
 		<key>Sensors_MenubarMode</key>
 		<string>100,3</string>
+		<key>TimerFrequency</key>
+		<integer>2</integer>
 	</dict>
 	<key>version</key>
 	<real>5.0300002098083496</real>
