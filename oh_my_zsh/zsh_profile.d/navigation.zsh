@@ -1,5 +1,4 @@
-setopt auto_cd
-cdpath=(. $HOME/Documents/code)
+cdpath=(. $HOME/Documents/code $HOME/Documents/code/go/src)
 
 current() {
   if [[ -f $CURRENT_PROJECT_PATH ]]; then

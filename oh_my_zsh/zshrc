@@ -7,12 +7,6 @@ DISABLE_AUTO_UPDATE=true
 
 plugins=(vi-mode colored-man history-substring-search)
 
-unset MAILCHECK
-unsetopt auto_name_dirs
-unsetopt nomatch
-
-setopt nullglob
-
 alias rspec="noglob rspec"
 
 source $ZSH/oh-my-zsh.sh
