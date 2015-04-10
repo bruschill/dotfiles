@@ -46,11 +46,9 @@ alias rg="be rails g"
 # database
 alias dbd="ber db:drop"
 alias dbc="ber db:create"
-alias dbtp="ber db:test:prepare"
 alias dbm="ber db:migrate"
 alias dbs="ber db:seed"
-alias dbr="dbm && ber db:reset"
-alias dbrb="dbd && dbc && dbm"
+alias dbrb="dbd && dbc && dbm && dbs"
 
 # testing
 alias atst="be autotest"
