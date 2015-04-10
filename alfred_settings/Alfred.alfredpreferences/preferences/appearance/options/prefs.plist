@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>fadein</key>
+	<false/>
 	<key>hidecog</key>
 	<true/>
 	<key>hidehat</key>
@@ -9,9 +11,11 @@
 	<key>hidemenu</key>
 	<true/>
 	<key>hidesubtext</key>
-	<true/>
+	<integer>3</integer>
 	<key>saveposition</key>
 	<true/>
+	<key>showscrollbar</key>
+	<false/>
 	<key>visibleresults</key>
 	<integer>4</integer>
 	<key>xPoint</key>
