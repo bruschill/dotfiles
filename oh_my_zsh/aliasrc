@@ -28,7 +28,7 @@ alias ls="ls -GFh"
 alias lh="ls -lah"
 
 # homebrew
-alias brewup="brew update && brew upgrade && brew cleanup -s && brew cask cleanup && brew prune"
+alias brewup="brew update && brew upgrade && brew cleanup -s && brew prune"
 
 # rbenv
 alias rnv="rbenv"
