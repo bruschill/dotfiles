@@ -4,6 +4,8 @@
 <dict>
 	<key>hideStore</key>
 	<true/>
+	<key>includePodcasts</key>
+	<false/>
 	<key>showPlaylists</key>
 	<false/>
 </dict>
