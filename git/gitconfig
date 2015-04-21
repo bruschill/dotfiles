@@ -31,5 +31,3 @@
 	whitespace = red reverse
 [branch]
 	autosetuprebase = always
-[push]
-	default = simple
