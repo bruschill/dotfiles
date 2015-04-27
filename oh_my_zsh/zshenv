@@ -11,7 +11,7 @@ export GOPATH=$HOME/Documents/code/go
 export GOBIN=$GOPATH/bin
 
 export RUBY_GC_MALLOC_LIMIT=90000000
-export RUBYGC_HEAP_FREE_SLOTS=200000
+export RUBY_GC_HEAP_INIT_SLOTS=200000
 
 export ARCHFLAGS="-arch x86_64"
 
@@ -22,5 +22,3 @@ export DOCKER_TLS_VERIFY=1
 export PATH=$PATH:$GOPATH
 
 prepend PATH /usr/local/bin
-
-if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi

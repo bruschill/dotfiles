@@ -1,4 +1,4 @@
-cdpath=(. $HOME/Documents/code $HOME/Documents/code/go/src $HOME/Documents/code/new_relic)
+cdpath=(. $HOME/Documents/code $HOME/Documents/code/go/src $HOME/newrelic)
 
 current() {
   if [[ -f $CURRENT_PROJECT_PATH ]]; then

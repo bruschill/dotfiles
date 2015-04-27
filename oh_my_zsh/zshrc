@@ -11,3 +11,5 @@ alias rspec="noglob rspec"
 
 source $ZSH/oh-my-zsh.sh
 source $HOME/.aliasrc
+
+eval "$(rbenv init -)"
