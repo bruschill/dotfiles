@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>build</key>
-	<real>585</real>
+	<real>601</real>
 	<key>license</key>
 	<string>4592-1927-4925-1155-7866</string>
 	<key>preferences</key>
@@ -12,6 +12,10 @@
 		<integer>1</integer>
 		<key>Diagnostics_Sent_3.1</key>
 		<true/>
+		<key>Diagnostics_Sent_3.2</key>
+		<true/>
+		<key>Disks_DropdownDisplayMode</key>
+		<integer>1</integer>
 		<key>Disks_MenubarGraphActivityCustomColors</key>
 		<integer>0</integer>
 		<key>Disks_MenubarGraphActivityRead</key>
@@ -22,6 +26,8 @@
 		<string>100,8</string>
 		<key>DropdownTheme</key>
 		<integer>1</integer>
+		<key>FanControl_Enabled</key>
+		<false/>
 		<key>Memory_AppFormat</key>
 		<integer>0</integer>
 		<key>Memory_DisplayFormat</key>
@@ -29,6 +35,10 @@
 		<key>Memory_MenubarMode</key>
 		<string>100,0</string>
 		<key>MenubarSkinColor</key>
+		<integer>8</integer>
+		<key>MenubarSkinColor-Dark</key>
+		<integer>8</integer>
+		<key>MenubarSkinColor-Light</key>
 		<integer>8</integer>
 		<key>Network_MenubarMode</key>
 		<string>0,100</string>
@@ -38,6 +48,6 @@
 		<integer>2</integer>
 	</dict>
 	<key>version</key>
-	<real>5.0300002098083496</real>
+	<real>5.0999999046325684</real>
 </dict>
 </plist>
