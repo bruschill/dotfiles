@@ -2,8 +2,8 @@
 alias g="git"
 
 alias gs="g status"
-alias gh="g stash"
 alias grb="g rebase -i"
+alias gh="g stash"
 alias ghp="gh pop"
 alias grm="g rm"
 alias gmv="g mv"
@@ -17,7 +17,8 @@ alias gm="g merge"
 alias gmt="g mergetool"
 alias gd="g diff"
 alias gdc="g diff --cached"
-alias gup="g pull"
+alias gf="g fetch"
+alias gup="g pull --rebase"
 alias gp="g push"
 alias gf="g fetch"
 alias gpu="gp -u origin"
@@ -30,9 +31,6 @@ alias lh="ls -lah"
 
 # homebrew
 alias brewup="brew update && brew upgrade --all && brew cleanup -s && brew cask cleanup && brew prune"
-
-# rbenv
-alias rnv="rbenv"
 
 # bundler
 alias be="bundle exec"
@@ -50,9 +48,6 @@ alias dbc="ber db:create"
 alias dbm="ber db:migrate"
 alias dbs="ber db:seed"
 alias dbrb="dbd && dbc && dbm && dbs"
-
-# testing
-alias atst="be autotest"
 
 # foreman
 alias fs="foreman start"
