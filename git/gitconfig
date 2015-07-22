@@ -1,35 +1,29 @@
 [user]
 	name = B. Ruschill
 	email = brandon.ruschill@gmail.com
-[color]
-	ui = true
+[github]
+	user = bruschill
 [core]
 	editor = vim
 	eol = lf
 	safecrlf = false
-[merge]
+[branch]
+	autosetuprebase = always
+[push]
+	default = simple
+[diff]
 	tool = Kaleidoscope
+[difftool "Kaleidoscope"]
+	prompt = false
+	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
 [mergetool "Kaleidoscope"]
 	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
 	trustExitCode = true
 	keepBackup = false
 	prompt = false
 	conflictstyle = diff3
-[github]
-	user = bruschill
-[diff]
-	tool = Kaleidoscope
-[difftool "Kaleidoscope"]
-	prompt = false
-	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
-[difftool]
-	prompt = false
-[mergetool]
-	keepBackup = false
-	prompt = false
+[color]
+	ui = true
+  branch = true
 [color "diff"]
 	whitespace = red reverse
-[branch]
-	autosetuprebase = always
-[push]
-	default = simple
