@@ -94,12 +94,12 @@
 			<key>http://kapeli.com/feeds/AngularJS.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2015-03-26T07:01:03Z</date>
+				<date>2015-07-24T17:54:55Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Bootstrap_3.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2015-03-26T07:01:10Z</date>
+				<date>2015-07-24T17:54:54Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Go.xml</key>
 			<dict>
@@ -109,27 +109,27 @@
 			<key>http://kapeli.com/feeds/JavaScript.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2015-03-26T07:03:22Z</date>
+				<date>2015-07-24T17:55:04Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Lo-Dash.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2015-03-26T07:01:41Z</date>
+				<date>2015-07-24T17:54:55Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Markdown.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2015-03-26T07:02:16Z</date>
+				<date>2015-07-24T17:54:55Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/NodeJS.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2015-03-26T07:02:21Z</date>
+				<date>2015-07-24T17:54:55Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Redis.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2015-03-26T07:02:19Z</date>
+				<date>2015-07-24T17:54:55Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Ruby_2.xml</key>
 			<dict>
@@ -144,17 +144,17 @@
 			<key>http://kapeli.com/feeds/jQuery.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2015-03-26T05:48:16Z</date>
+				<date>2015-07-24T17:54:58Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/jQuery_Mobile.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2015-03-26T07:01:40Z</date>
+				<date>2015-07-24T17:54:54Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/jQuery_UI.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2015-03-26T07:02:29Z</date>
+				<date>2015-07-24T17:55:00Z</date>
 			</dict>
 		</dict>
 		<key>uninstalled</key>
