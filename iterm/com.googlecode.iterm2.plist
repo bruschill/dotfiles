@@ -8,10 +8,14 @@
 	<integer>0</integer>
 	<key>AppleSmoothFixedFontsSizeThreshold</key>
 	<integer>1</integer>
+	<key>CommandSelection</key>
+	<false/>
 	<key>Default Bookmark Guid</key>
 	<string>5B76BF95-265F-45E1-BD1E-9EF77FDDBFB8</string>
 	<key>DimOnlyText</key>
 	<false/>
+	<key>DisableAppNap</key>
+	<true/>
 	<key>DisableFullscreenTransparency</key>
 	<true/>
 	<key>FlashTabBarInFullscreen</key>
@@ -64,8 +68,10 @@
 	</dict>
 	<key>NSWindow Frame Preferences</key>
 	<string>269 400 606 456 0 0 1440 877 </string>
+	<key>NSWindow Frame SUUpdateAlert</key>
+	<string>410 364 620 392 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>870 304 570 449 0 0 1440 877 </string>
+	<string>807 418 570 427 0 0 1440 877 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -280,15 +286,15 @@
 			<key>Cursor Guide Color</key>
 			<dict>
 				<key>Alpha Component</key>
-				<real>0.10000000000000001</real>
+				<real>0.25</real>
 				<key>Blue Component</key>
 				<real>1</real>
 				<key>Color Space</key>
 				<string>Calibrated</string>
 				<key>Green Component</key>
-				<real>0.9100000262260437</real>
+				<real>0.91000000000000003</real>
 				<key>Red Component</key>
-				<real>0.64999997615814209</real>
+				<real>0.65000000000000002</real>
 			</dict>
 			<key>Cursor Text Color</key>
 			<dict>
@@ -702,7 +708,7 @@
 			<key>Vertical Spacing</key>
 			<real>1</real>
 			<key>Visual Bell</key>
-			<true/>
+			<false/>
 			<key>Window Type</key>
 			<integer>0</integer>
 			<key>Working Directory</key>
@@ -715,9 +721,17 @@
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
 	<integer>0</integer>
+	<key>NoSyncSilenceAnnoyingBellAutomatically</key>
+	<true/>
 	<key>NoSyncTipsDisabled</key>
 	<true/>
 	<key>OnlyWhenMoreTabs</key>
+	<false/>
+	<key>OpenArrangementAtStartup</key>
+	<false/>
+	<key>OpenNoWindowsAtStartup</key>
+	<false/>
+	<key>OptionClickMovesCursor</key>
 	<false/>
 	<key>PointerActions</key>
 	<dict/>
@@ -725,16 +739,18 @@
 	<string>/Users/bruschill/Documents/code/dotfiles/iterm</string>
 	<key>PromptOnQuit</key>
 	<false/>
+	<key>SUAutomaticallyUpdate</key>
+	<true/>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/testing3.xml</string>
+	<string>https://iterm2.com/appcasts/nightly.xml</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2015-08-04T04:20:16Z</date>
+	<date>2015-08-27T07:35:33Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowBookmarkName</key>
@@ -756,7 +772,7 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>2.9.20150626</string>
+	<string>2.9.20150826-nightly</string>
 	<key>kCommandHistoryHasEverBeenUsed</key>
 	<true/>
 </dict>
