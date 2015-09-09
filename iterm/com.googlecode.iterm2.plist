@@ -11,7 +11,7 @@
 	<key>CommandSelection</key>
 	<false/>
 	<key>CopySelection</key>
-	<true/>
+	<false/>
 	<key>Default Bookmark Guid</key>
 	<string>5B76BF95-265F-45E1-BD1E-9EF77FDDBFB8</string>
 	<key>DimOnlyText</key>
@@ -77,7 +77,7 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>410 364 620 392 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>807 383 570 427 0 0 1440 877 </string>
+	<string>807 373 570 427 0 0 1440 877 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -783,7 +783,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2015-09-01T03:12:15Z</date>
+	<date>2015-09-02T03:50:28Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowBookmarkName</key>
