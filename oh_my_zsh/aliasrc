@@ -1,3 +1,6 @@
+# grep
+alias grep="grep -v grep | grep"
+
 # git
 alias g="git"
 
