@@ -3,11 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>build</key>
-	<real>601</real>
+	<real>620</real>
 	<key>license</key>
 	<string>4592-1927-4925-1155-7866</string>
 	<key>preferences</key>
 	<dict>
+		<key>CombinedDropdownDisplayMode</key>
+		<string>1,2,3,5,4</string>
+		<key>CombinedMenubarDisplayMode</key>
+		<string>1,2,3,5,4</string>
 		<key>Diagnostics_Enabled</key>
 		<integer>1</integer>
 		<key>Diagnostics_Sent_3.1</key>
@@ -24,6 +28,8 @@
 		<real>29</real>
 		<key>Disks_MenubarMode</key>
 		<string>100,8</string>
+		<key>DropdownShowLauncher</key>
+		<integer>0</integer>
 		<key>DropdownTheme</key>
 		<integer>1</integer>
 		<key>FanControl_Enabled</key>
@@ -44,10 +50,16 @@
 		<string>0,100</string>
 		<key>Sensors_MenubarMode</key>
 		<string>100,3</string>
+		<key>StatusItems-Order</key>
+		<array>
+			<integer>8</integer>
+		</array>
+		<key>Theme-SeperateStyles</key>
+		<integer>0</integer>
 		<key>TimerFrequency</key>
-		<integer>2</integer>
+		<integer>1</integer>
 	</dict>
 	<key>version</key>
-	<real>5.0999999046325684</real>
+	<real>5.1100001335144043</real>
 </dict>
 </plist>
