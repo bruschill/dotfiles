@@ -1,27 +1,27 @@
 prepend() { [ -d "$2" ] && eval $1=\"$2\$\{$1:+':'\$$1\}\" && export $1 ; }
 
-export TERM=xterm-256color
-[ -n "$TMUX" ] && export TERM=screen-256color
-
+# general
 export LC_ALL="en_US.UTF-8"
 export LANG="en_US.UTF-8"
 
-export HOMEBREW_CASK_OPTS='--appdir=/Applications'
+export ARCHFLAGS="-arch x86_64"
 
+export TERM=xterm-256color
+[ -n "$TMUX" ] && export TERM=screen-256color
+
+# fzf
+export FZF_DEFAULT_OPTS='
+--extended
+--bind ctrl-f:page-down,ctrl-b:page-up
+'
+
+# node
 export NODE_PATH=/usr/local/share/npm/bin:/usr/local/share/npm/lib/node_modules
 
+# go
 export GOPATH=$HOME/Documents/code/go
 export GOBIN=$GOPATH/bin
 export GO15VENDOREXPERIMENT=1
-
-export RUBY_GC_MALLOC_LIMIT=90000000
-export RUBY_GC_HEAP_INIT_SLOTS=200000
-
-export ARCHFLAGS="-arch x86_64"
-
-export DOCKER_HOST=tcp://192.168.59.103:2376
-export DOCKER_CERT_PATH=$HOME/.boot2docker/certs/boot2docker-vm
-export DOCKER_TLS_VERIFY=1
 
 export PATH=$PATH:$GOPATH
 

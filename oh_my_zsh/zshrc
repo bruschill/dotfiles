@@ -5,7 +5,7 @@ ZSH_THEME="miloshadzic"
 
 DISABLE_AUTO_UPDATE=true
 
-plugins=(vi-mode colored-man history-substring-search)
+plugins=(vi-mode colored-man )
 
 alias rspec="noglob rspec"
 
@@ -13,3 +13,7 @@ source $ZSH/oh-my-zsh.sh
 source $HOME/.aliasrc
 
 eval "$(rbenv init -)"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+bindkey '^P' fzf-file-widget
