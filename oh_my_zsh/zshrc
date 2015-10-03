@@ -14,6 +14,14 @@ source $HOME/.aliasrc
 
 eval "$(rbenv init -)"
 
+
+export FZF_DEFAULT_OPTS='
+--extended
+--bind ctrl-f:page-down,ctrl-b:page-up
+--color fg:-1,bg:-1,hl:166,fg+:234,bg+:159,hl+:234
+--color info:254,prompt:254,spinner:254,pointer:234,marker:-1
+'
+
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 bindkey '^P' fzf-file-widget
