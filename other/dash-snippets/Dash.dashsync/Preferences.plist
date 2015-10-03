@@ -94,67 +94,67 @@
 			<key>http://kapeli.com/feeds/AngularJS.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2015-07-24T17:54:55Z</date>
+				<date>2015-10-02T10:22:26Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Bootstrap_3.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2015-07-24T17:54:54Z</date>
+				<date>2015-10-02T10:22:28Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Go.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2015-03-26T05:48:16Z</date>
+				<date>2015-10-02T10:22:26Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/JavaScript.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2015-07-24T17:55:04Z</date>
+				<date>2015-10-02T10:22:37Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Lo-Dash.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2015-07-24T17:54:55Z</date>
+				<date>2015-10-02T10:22:29Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Markdown.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2015-07-24T17:54:55Z</date>
+				<date>2015-10-02T10:22:28Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/NodeJS.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2015-07-24T17:54:55Z</date>
+				<date>2015-10-02T10:22:29Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Redis.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2015-07-24T17:54:55Z</date>
+				<date>2015-10-02T10:22:29Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Ruby_2.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2015-03-26T05:48:16Z</date>
+				<date>2015-10-02T10:22:37Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Ruby_on_Rails_4.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2015-03-26T05:48:16Z</date>
+				<date>2015-10-02T10:22:33Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/jQuery.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2015-07-24T17:54:58Z</date>
+				<date>2015-10-02T10:22:27Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/jQuery_Mobile.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2015-07-24T17:54:54Z</date>
+				<date>2015-10-02T10:22:29Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/jQuery_UI.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2015-07-24T17:55:00Z</date>
+				<date>2015-10-02T10:22:32Z</date>
 			</dict>
 		</dict>
 		<key>uninstalled</key>
