@@ -101,10 +101,20 @@
 				<key>date</key>
 				<date>2015-10-02T10:22:28Z</date>
 			</dict>
+			<key>http://kapeli.com/feeds/CSS.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2015-10-09T03:34:28Z</date>
+			</dict>
 			<key>http://kapeli.com/feeds/Go.xml</key>
 			<dict>
 				<key>date</key>
 				<date>2015-10-02T10:22:26Z</date>
+			</dict>
+			<key>http://kapeli.com/feeds/HTML.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2015-10-09T03:19:21Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/JavaScript.xml</key>
 			<dict>
@@ -163,11 +173,6 @@
 			<dict>
 				<key>date</key>
 				<date>2015-03-26T07:04:06Z</date>
-			</dict>
-			<key>http://kapeli.com/feeds/HTML.xml</key>
-			<dict>
-				<key>date</key>
-				<date>2015-03-26T07:04:03Z</date>
 			</dict>
 		</dict>
 	</dict>
