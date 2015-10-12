@@ -8,6 +8,8 @@
 	<string>4592-1927-4925-1155-7866</string>
 	<key>preferences</key>
 	<dict>
+		<key>CPU_MenubarSingleHistoryGraph</key>
+		<integer>0</integer>
 		<key>CombinedDropdownDisplayMode</key>
 		<string>1,2,3,5,4</string>
 		<key>CombinedMenubarDisplayMode</key>
@@ -57,7 +59,7 @@
 		<key>Theme-SeperateStyles</key>
 		<integer>0</integer>
 		<key>TimerFrequency</key>
-		<integer>1</integer>
+		<integer>2</integer>
 	</dict>
 	<key>version</key>
 	<real>5.1100001335144043</real>
