@@ -192,7 +192,7 @@
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>99 293 592 584 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>386 315 570 416 0 0 1440 877 </string>
+	<string>808 349 570 427 0 0 1440 877 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -889,7 +889,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2015-10-18T05:50:53Z</date>
+	<date>2015-10-22T03:11:49Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowBookmarkName</key>
@@ -904,7 +904,7 @@
 	<integer>0</integer>
 	<key>ToolbeltTools</key>
 	<array>
-		<string>Jobs</string>
+		<string>Notes</string>
 	</array>
 	<key>UKCrashReporterLastCrashReportDate</key>
 	<real>1444713856</real>
