@@ -10,4 +10,5 @@ export FZF_DEFAULT_OPTS='
 '
 
 bindkey '^P' fzf-file-widget
-bindkey '^F' fzf-history-widget
+bindkey '^H' fzf-history-widget
+bindkey '^D' fzf-cd-widget

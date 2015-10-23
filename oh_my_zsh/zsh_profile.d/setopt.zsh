@@ -23,3 +23,5 @@ setopt auto_name_dirs
 setopt nullglob
 unset MAILCHECK
 unsetopt nomatch
+
+stty eof ''
