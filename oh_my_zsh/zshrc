@@ -14,5 +14,4 @@ source $HOME/.aliasrc
 
 eval "$(rbenv init -)"
 
-
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
