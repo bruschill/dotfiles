@@ -3,6 +3,7 @@
 /images/
 /tmp/
 /vendor/
+/plugged/
 *.sql
 *.tags*
 *.gemtags*
