@@ -547,7 +547,7 @@
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>99 293 592 584 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>651 224 570 427 0 0 1440 877 </string>
+	<string>718 190 570 427 0 0 1440 877 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1265,6 +1265,8 @@
 	</array>
 	<key>UKCrashReporterLastCrashReportDate</key>
 	<real>1444713856</real>
+	<key>UseBorder</key>
+	<false/>
 	<key>WindowNumber</key>
 	<false/>
 	<key>WordCharacters</key>
