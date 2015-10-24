@@ -1,0 +1,24 @@
+ZSH_HISTORY_PATH=$HOME/.zsh_history
+
+# load zgen
+source $HOME/.zsh_config.d/zgen/zgen.zsh
+
+if ! zgen saved; then
+  zgen oh-my-zsh
+  zgen oh-my-zsh themes/miloshadzic
+  zgen oh-my-zsh plugins/vi-mode
+  zgen oh-my-zsh plugins/colored-man-pages
+
+  zgen save
+fi
+
+# load files in zsh_config.d
+for file in $HOME/.zsh_config.d/*.zsh; do
+  source $file
+done
+
+source $HOME/.aliasrc
+
+eval "$(rbenv init -)"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
