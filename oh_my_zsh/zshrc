@@ -5,7 +5,7 @@ ZSH_THEME="miloshadzic"
 
 DISABLE_AUTO_UPDATE=true
 
-plugins=(vi-mode colored-man )
+plugins=(vi-mode colored-man)
 
 alias rspec="noglob rspec"
 
