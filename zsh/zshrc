@@ -1,6 +1,7 @@
 ZSH_HISTORY_PATH=$HOME/.zsh_history
 
 # load zgen
+ZGEN_RESET_ON_CHANGE=$HOME/.zshrc
 source $HOME/.zsh_config.d/zgen/zgen.zsh
 
 if ! zgen saved; then
@@ -9,6 +10,8 @@ if ! zgen saved; then
   zgen oh-my-zsh plugins/vi-mode
   zgen oh-my-zsh plugins/colored-man-pages
 
+  zgen load skx/sysadmin-util
+  zgen load sharat87/zsh-vim-mode
   zgen save
 fi
 
