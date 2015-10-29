@@ -26,7 +26,6 @@ export FZF_DEFAULT_OPTS='
 # KEY BINDINGS
 bindkey '^P' fzf-file-widget
 bindkey '^H' fzf-history-widget
-bindkey '^D' fzf-cd-widget
 
 # HELPER FUNCTIONS
 # open matched file in editor of choice
