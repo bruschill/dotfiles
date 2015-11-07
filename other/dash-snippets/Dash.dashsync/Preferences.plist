@@ -65,8 +65,10 @@
 		<key>uninstalled</key>
 		<dict/>
 	</dict>
-	<key>annotationsAreShown</key>
+	<key>DHWebViewIsDark</key>
 	<true/>
+	<key>annotationsAreShown</key>
+	<false/>
 	<key>docsets</key>
 	<dict>
 		<key>keywords</key>
@@ -136,11 +138,6 @@
 				<key>date</key>
 				<date>2015-10-02T10:22:29Z</date>
 			</dict>
-			<key>http://kapeli.com/feeds/Redis.xml</key>
-			<dict>
-				<key>date</key>
-				<date>2015-10-02T10:22:29Z</date>
-			</dict>
 			<key>http://kapeli.com/feeds/Ruby_2.xml</key>
 			<dict>
 				<key>date</key>
@@ -173,6 +170,11 @@
 			<dict>
 				<key>date</key>
 				<date>2015-03-26T07:04:06Z</date>
+			</dict>
+			<key>http://kapeli.com/feeds/Redis.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2015-11-07T11:31:12Z</date>
 			</dict>
 		</dict>
 	</dict>

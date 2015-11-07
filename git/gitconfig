@@ -4,7 +4,7 @@
 [github]
 	user = bruschill
 [core]
-	editor = nvim
+	editor = vim
 	eol = lf
 	safecrlf = false
 	autocrlf = input
@@ -12,26 +12,17 @@
 	autosetuprebase = always
 [push]
 	default = simple
-[diff]
-	tool = Kaleidoscope
-[difftool "Kaleidoscope"]
-	prompt = false
-	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
-[mergetool "Kaleidoscope"]
-	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
-	trustExitCode = true
-	keepBackup = false
-	prompt = false
-	conflictstyle = diff3
 [color]
 	ui = true
   branch = true
-[color "diff"]
-	whitespace = red reverse
 [merge]
-	tool = Kaleidoscope
-[difftool]
-	prompt = false
-[mergetool]
-	prompt = false
+	tool = vimdiff
 	keepBackup = false
+[mergetool]
+	path = vim
+	keepBackup = false
+	prompt = true
+[mergetool "vimdiff"]
+  cmd = nvim -d $BASE $LOCAL $REMOTE $MERGED -c '$wincmd w' -c 'wincmd J'
+[credential]
+	helper = osxkeychain
