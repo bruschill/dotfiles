@@ -174,7 +174,7 @@
 			<key>http://kapeli.com/feeds/Redis.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2015-11-07T11:31:12Z</date>
+				<date>2015-11-07T20:40:26Z</date>
 			</dict>
 		</dict>
 	</dict>
@@ -206,9 +206,9 @@
 	<key>searchKey</key>
 	<dict>
 		<key>keyCode</key>
-		<integer>49</integer>
+		<integer>-1</integer>
 		<key>modifiers</key>
-		<integer>2048</integer>
+		<integer>0</integer>
 	</dict>
 	<key>shouldRestoreTabs</key>
 	<true/>
