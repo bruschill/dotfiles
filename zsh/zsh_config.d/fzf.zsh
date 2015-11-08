@@ -37,7 +37,7 @@ fe() {
 
 # fk - kill process
 fk() {
-  pid=$(ps -ef | sed 1d | fzf -m | awk '{print $2}')
+  pid=$(ps -ef | sed 1d | fzf-tmux -m | awk '{print $2}')
 
   if [ "x$pid" != "x" ]
   then
@@ -48,7 +48,7 @@ fk() {
 # select selected tmux session
 fts() {
   local session
-  session=$(tmux list-sessions -F "#{session_name}" | fzf --query="$1" --select-1 --exit-0) &&
+  session=$(tmux list-sessions -F "#{session_name}" | fzf-tmux --query="$1" --select-1 --exit-0) &&
   tmux switch-client -t "$session"
 }
 
