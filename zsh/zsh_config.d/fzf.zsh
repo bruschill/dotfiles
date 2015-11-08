@@ -45,6 +45,13 @@ fk() {
   fi
 }
 
+# select selected tmux session
+fts() {
+  local session
+  session=$(tmux list-sessions -F "#{session_name}" | fzf --query="$1" --select-1 --exit-0) &&
+  tmux switch-client -t "$session"
+}
+
 # checkout local/remote git branch
 fbr() {
   local branches branch
