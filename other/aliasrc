@@ -50,6 +50,7 @@ alias dbd="ber db:drop"
 alias dbc="ber db:create"
 alias dbm="ber db:migrate"
 alias dbs="ber db:seed"
+alias dbr="ber db:reset"
 alias dbrb="dbd && dbc && dbm && dbs"
 
 # foreman
