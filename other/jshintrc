@@ -1,10 +1,9 @@
 {
   "bitwise": true,
-  "camelcase": true,
   "curly": true,
   "eqeqeq": true,
-  "indent": 2,
+  "funcscope": true,
+  "strict": true,
   "trailing": true,
-  "unused": true,
-  "quotmark": "single"
+  "unused": 'strict'
 }
