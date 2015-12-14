@@ -3,7 +3,6 @@
   "curly": true,
   "eqeqeq": true,
   "funcscope": true,
-  "strict": true,
   "trailing": true,
   "unused": 'strict'
 }
