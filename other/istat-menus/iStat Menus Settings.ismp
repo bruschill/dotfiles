@@ -8,6 +8,14 @@
 	<string>4592-1927-4925-1155-7866</string>
 	<key>preferences</key>
 	<dict>
+		<key>CPU_AppFormat</key>
+		<integer>1</integer>
+		<key>CPU_CombineLogicalCores</key>
+		<integer>1</integer>
+		<key>CPU_MenubarCombineCores</key>
+		<integer>1</integer>
+		<key>CPU_MenubarGroupItems</key>
+		<integer>0</integer>
 		<key>CPU_MenubarSingleHistoryGraph</key>
 		<integer>0</integer>
 		<key>CombinedDropdownDisplayMode</key>
