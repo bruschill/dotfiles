@@ -198,7 +198,7 @@
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>99 293 592 584 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>870 252 570 427 0 0 1440 877 </string>
+	<string>457 343 570 427 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>176 70 570 427 0 0 1440 877 </string>
 	<key>New Bookmarks</key>
@@ -358,12 +358,16 @@
 			<false/>
 			<key>Background Color</key>
 			<dict>
+				<key>Alpha Component</key>
+				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.15170273184776306</real>
+				<real>0.15037345886230469</real>
+				<key>Color Space</key>
+				<string>Calibrated</string>
 				<key>Green Component</key>
-				<real>0.11783610284328461</real>
+				<real>0.11765088140964508</real>
 				<key>Red Component</key>
-				<real>0.0</real>
+				<real>0.0081323310732841492</real>
 			</dict>
 			<key>Background Image Location</key>
 			<string></string>
@@ -911,7 +915,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2015-12-14T07:53:37Z</date>
+	<date>2015-12-31T04:47:30Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowBookmarkName</key>
@@ -941,7 +945,7 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>2.9.20151213-nightly</string>
+	<string>2.9.20151230-nightly</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>

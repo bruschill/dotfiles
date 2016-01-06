@@ -133,6 +133,11 @@
 				<key>date</key>
 				<date>2015-10-02T10:22:28Z</date>
 			</dict>
+			<key>http://kapeli.com/feeds/Mocha.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2015-12-28T10:23:48Z</date>
+			</dict>
 			<key>http://kapeli.com/feeds/NodeJS.xml</key>
 			<dict>
 				<key>date</key>
