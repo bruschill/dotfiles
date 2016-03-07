@@ -14,4 +14,7 @@ export GO15VENDOREXPERIMENT=1
 
 export PATH=$PATH:$GOPATH
 
+# work
+export MBC_WORK_ROOT=$HOME/Documents/code/mb
+
 prepend PATH /usr/local/bin
