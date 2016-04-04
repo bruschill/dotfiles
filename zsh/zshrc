@@ -20,6 +20,8 @@ for file in $HOME/.zsh_config.d/*.zsh; do
   source $file
 done
 
+source $HOME/.mb.zsh
+
 source $HOME/.aliasrc
 
 eval "$(rbenv init -)"
