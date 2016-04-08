@@ -227,9 +227,9 @@
 	<key>shouldStartAtLogin</key>
 	<true/>
 	<key>shouldSyncBookmarks</key>
-	<true/>
+	<false/>
 	<key>shouldSyncDocsets</key>
-	<true/>
+	<false/>
 	<key>shouldSyncGeneral</key>
 	<true/>
 	<key>shouldSyncView</key>
