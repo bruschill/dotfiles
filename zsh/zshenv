@@ -10,7 +10,6 @@ export TERM=xterm-256color
 # go
 export GOPATH=$HOME/Documents/code/go
 export GOBIN=$GOPATH/bin
-export GO15VENDOREXPERIMENT=1
 
 export PATH=$PATH:$GOPATH
 
