@@ -455,7 +455,7 @@
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>99 293 592 584 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>570 382 570 427 0 0 1440 877 </string>
+	<string>385 358 570 448 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>176 70 570 427 0 0 1440 877 </string>
 	<key>New Bookmarks</key>
@@ -1145,12 +1145,16 @@
 	<integer>0</integer>
 	<key>OptionClickMovesCursor</key>
 	<false/>
+	<key>PMPrintingExpandedStateForPrint2</key>
+	<false/>
 	<key>PasteTabToStringTabStopSize</key>
 	<integer>4</integer>
 	<key>PointerActions</key>
 	<dict/>
 	<key>PrefsCustomFolder</key>
 	<string>/Users/bruschill/Documents/code/dotfiles/iterm</string>
+	<key>Print In Black And White</key>
+	<true/>
 	<key>PromptOnQuit</key>
 	<false/>
 	<key>RightOption</key>
