@@ -1,4 +1,4 @@
-cdpath=(. $HOME/Documents/code $HOME/Documents/code/go/src/github.com/bruschill)
+cdpath=(. $HOME/Documents/code $GOPATH/src)
 
 current() {
   if [[ -f $CURRENT_PROJECT_PATH ]]; then
