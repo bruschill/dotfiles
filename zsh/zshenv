@@ -15,6 +15,6 @@ export HOMEBREW_EDITOR=vim
 export GOPATH=$HOME/Documents/code/go
 export GOBIN=$GOPATH/bin
 
-export PATH=$PATH:$GOPATH
+export PATH=$PATH:$GOBIN
 
 prepend PATH /usr/local/bin
