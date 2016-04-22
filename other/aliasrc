@@ -33,12 +33,13 @@ alias ls="ls -GFh"
 alias lh="ls -lah"
 
 # homebrew
-alias update_universal_ctags="brew reinstall --HEAD universal-ctags"
 alias update_ag="brew reinstall --HEAD ag"
+alias update_delve="brew reinstall --HEAD delve"
 alias update_fzf="brew reinstall --HEAD fzf && sh /usr/local/opt/fzf/install --all"
 alias update_neovim="brew reinstall --HEAD neovim && pip2 install --upgrade neovim && pip3 install --upgrade neovim"
+alias update_universal_ctags="brew reinstall --HEAD universal-ctags"
 alias brewclean="brew prune && brew cleanup -s && brew cask cleanup"
-alias brewup="brew update && brew upgrade --all && update_universal_ctags && update_ag && update_fzf && update_neovim && brewclean"
+alias brewup="brew update && brew upgrade --all && update_ag && update_delve && update_fzf && update_neovim && update_universal_ctags && brewclean"
 
 # bundler
 alias be="bundle exec"
