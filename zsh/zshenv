@@ -12,10 +12,16 @@ export TERM=xterm-256color
 export HOMEBREW_EDITOR=vim
 export HOMEBREW_NO_ANALYTICS=1
 
+# programming
+export CODE=$HOME/Documents/code
+
 # go
-export GOPATH=$HOME/Documents/code/go
+export GOPATH=$CODE/go
 export GOBIN=$GOPATH/bin
 
-export PATH=$PATH:$GOBIN
+# rust
+export RUSTPATH=$CODE/rust
 
+# path prepending/appending
+export PATH=$PATH:$GOBIN
 prepend PATH /usr/local/bin
