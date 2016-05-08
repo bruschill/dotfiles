@@ -1,4 +1,4 @@
-cdpath=(. $HOME/Documents/code $GOPATH/src)
+cdpath=(. $CODE $GOPATH/src $RUSTPATH)
 
 current() {
   if [[ -f $CURRENT_PROJECT_PATH ]]; then
