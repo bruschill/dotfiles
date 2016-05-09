@@ -21,7 +21,9 @@ export GOBIN=$GOPATH/bin
 
 # rust
 export RUSTPATH=$CODE/rust
+export RUSTBIN=$HOME/.cargo/bin
 
-# path prepending/appending
+# path appending/prepending
 export PATH=$PATH:$GOBIN
+export PATH=$PATH:$RUSTBIN
 prepend PATH /usr/local/bin
