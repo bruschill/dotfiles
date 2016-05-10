@@ -12,7 +12,7 @@ fi
 source "/usr/local/opt/fzf/shell/key-bindings.zsh"
 
 # GENERAL
-export FZF_DEFAULT_COMMAND='ag -l -g ""'
+export FZF_DEFAULT_COMMAND='sift -l ""'
 
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 
