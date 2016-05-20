@@ -18,5 +18,7 @@
 	<true/>
 	<key>sleepKeywordEnabled</key>
 	<false/>
+	<key>sleepdisplaysKeyword</key>
+	<string>sleep</string>
 </dict>
 </plist>
