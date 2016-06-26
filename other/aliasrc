@@ -35,7 +35,7 @@ alias lh="ls -lah"
 # homebrew
 alias reinstall_ag="brew reinstall --HEAD ag"
 alias reinstall_fzf="brew reinstall --HEAD fzf && sh /usr/local/opt/fzf/install --all"
-alias reinstall_neovim="brew reinstall --HEAD neovim && pip2 install --upgrade neovim && pip3 install --upgrade neovim"
+alias reinstall_neovim="brew reinstall --HEAD neovim && pip2 install -U neovim && pip3 install -U neovim"
 alias reinstall_universal_ctags="brew reinstall --HEAD universal-ctags"
 alias reinstall_all="reinstall_ag && reinstall_fzf && reinstall_neovim && reinstall_universal_ctags"
 alias brewclean="brew prune && brew cleanup -s && brew cask cleanup"
