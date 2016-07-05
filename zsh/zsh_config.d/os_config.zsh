@@ -1,3 +1,3 @@
 if [ `uname` = "Darwin" ]; then
-  ulimit -n 2048
+  ulimit -n 4096
 fi
