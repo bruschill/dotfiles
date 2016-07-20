@@ -396,6 +396,8 @@
 	<true/>
 	<key>HideTabNumber</key>
 	<true/>
+	<key>HotkeyMigratedFromSingleToMulti</key>
+	<true/>
 	<key>JobName</key>
 	<false/>
 	<key>LoadPrefsFromCustomFolder</key>
@@ -409,7 +411,7 @@
 	<key>NSFontPanelSizeSliderParams</key>
 	<string>2 0 100</string>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/Documents/code/oceanic-next-iterm</string>
+	<string>~/Downloads</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{712, 459}</string>
 	<key>NSNavPanelExpandedSizeForSaveMode</key>
@@ -455,7 +457,7 @@
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>99 293 592 584 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>174 142 570 427 0 0 1440 877 </string>
+	<string>87 339 570 427 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>176 70 570 427 0 0 1440 877 </string>
 	<key>New Bookmarks</key>
@@ -1117,6 +1119,8 @@
 			<string>/Users/bruschill</string>
 		</dict>
 	</array>
+	<key>NoSyncConfirmBeta</key>
+	<true/>
 	<key>NoSyncDoNotWarnBeforeMultilinePaste</key>
 	<true/>
 	<key>NoSyncDoNotWarnBeforeMultilinePaste_selection</key>
@@ -1131,6 +1135,8 @@
 	<string>47133175-7EB2-4D76-B392-E8CC75D25A5D</string>
 	<key>NoSyncLastTipTime</key>
 	<real>483476068.663876</real>
+	<key>NoSyncNeverAskAboutSettingAlternateMouseScroll</key>
+	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -1232,11 +1238,11 @@
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/nightly.xml?shard=41</string>
+	<string>https://iterm2.com/appcasts/final.xml?shard=41</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-06-03T13:52:52Z</date>
+	<date>2016-07-18T12:50:39Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowBookmarkName</key>
@@ -1268,7 +1274,7 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.0.20160602-nightly</string>
+	<string>3.0.20160717-nightly</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
