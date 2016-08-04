@@ -460,6 +460,10 @@
 	<string>87 339 570 427 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>176 70 570 427 0 0 1440 877 </string>
+	<key>NeverWarnAboutShortLivedSessions_25473A8B-E092-4F6E-8FAD-D7B8E98BA1C3</key>
+	<true/>
+	<key>NeverWarnAboutShortLivedSessions_25473A8B-E092-4F6E-8FAD-D7B8E98BA1C3_selection</key>
+	<integer>0</integer>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1242,7 +1246,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-07-18T12:50:39Z</date>
+	<date>2016-07-20T12:50:40Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowBookmarkName</key>
