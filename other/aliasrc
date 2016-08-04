@@ -1,3 +1,6 @@
+# general
+alias exit='sh ~/.zsh_config.d/cowboy.sh; sleep 1; exit'
+
 # grep
 alias grep="grep -v grep | grep"
 
