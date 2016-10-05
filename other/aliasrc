@@ -42,7 +42,7 @@ alias reinstall_neovim="brew reinstall --HEAD neovim && pip2 install -U neovim &
 alias reinstall_universal_ctags="brew reinstall --HEAD universal-ctags"
 alias reinstall_all="reinstall_ag && reinstall_fzf && reinstall_neovim && reinstall_universal_ctags"
 alias brewclean="brew prune && brew cleanup -s && brew cask cleanup"
-alias brewup="brew update && brew upgrade --all && brewclean"
+alias brewup="brew update && brew upgrade && brewclean"
 
 # bundler
 alias be="bundle exec"
