@@ -36,7 +36,8 @@ alias ls="ls -GFh"
 alias lh="ls -lah"
 
 # homebrew
-alias reinstall_neovim="brew reinstall --HEAD neovim && pip2 install -U neovim && pip3 install -U neovim"
+alias update_fzf="brew reinstall --HEAD fzf"
+alias update_neovim="brew reinstall --HEAD neovim && pip2 install -U neovim && pip3 install -U neovim"
 alias brewclean="brew prune && brew cleanup -s && brew cask cleanup"
 alias brewup="brew update && brew upgrade && brewclean"
 
