@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>build</key>
-	<real>629</real>
+	<real>733</real>
 	<key>license</key>
 	<string>4592-1927-4925-1155-7866</string>
 	<key>preferences</key>
@@ -27,6 +27,10 @@
 		<key>Diagnostics_Sent_3.1</key>
 		<true/>
 		<key>Diagnostics_Sent_3.2</key>
+		<true/>
+		<key>Diagnostics_Sent_3.3</key>
+		<true/>
+		<key>Diagnostics_Sent_3.5</key>
 		<true/>
 		<key>Disks_DropdownDisplayMode</key>
 		<integer>1</integer>
@@ -70,6 +74,6 @@
 		<integer>2</integer>
 	</dict>
 	<key>version</key>
-	<real>5.1100001335144043</real>
+	<real>5.320000171661377</real>
 </dict>
 </plist>
