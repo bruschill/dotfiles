@@ -435,7 +435,7 @@
 		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
 		hAErATGG
 		</data>
-		<string>322</string>
+		<string>330</string>
 	</array>
 	<key>NSTableView Hidden Columns KeyBingingTable</key>
 	<array/>
@@ -454,12 +454,14 @@
 	<string>269 400 606 456 0 0 1440 877 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>410 364 620 392 0 0 1440 877 </string>
+	<key>NSWindow Frame SharedPreferences</key>
+	<string>269 219 770 429 0 0 1440 900 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>99 293 592 584 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>87 339 570 427 0 0 1440 877 </string>
+	<string>384 282 570 427 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>176 70 570 427 0 0 1440 877 </string>
+	<string>176 74 570 427 0 0 1440 900 </string>
 	<key>NeverWarnAboutShortLivedSessions_25473A8B-E092-4F6E-8FAD-D7B8E98BA1C3</key>
 	<true/>
 	<key>NeverWarnAboutShortLivedSessions_25473A8B-E092-4F6E-8FAD-D7B8E98BA1C3_selection</key>
@@ -1246,7 +1248,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-07-20T12:50:40Z</date>
+	<date>2017-09-20T11:48:29Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowBookmarkName</key>
@@ -1264,6 +1266,7 @@
 	<key>ToolbeltTools</key>
 	<array>
 		<string>Notes</string>
+		<string>Captured Output</string>
 	</array>
 	<key>UKCrashReporterLastCrashReportDate</key>
 	<real>1444713856</real>
@@ -1278,7 +1281,7 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.0.20160717-nightly</string>
+	<string>3.1.0</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
