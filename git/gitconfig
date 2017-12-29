@@ -1,6 +1,7 @@
 [user]
 	name = B. Ruschill
 	email = brandon.ruschill@gmail.com
+	signingkey = DBC859637A25B19B
 [github]
 	user = bruschill
 [core]
@@ -30,3 +31,5 @@
 	helper = osxkeychain
 [alias]
 	cleanup = "!git branch --merged | grep  -v '\\*\\|master\\|develop' | xargs -n 1 git branch -d"
+[commit]
+	gpgsign = true
