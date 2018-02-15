@@ -38,7 +38,7 @@ alias lh="ls -lah"
 # homebrew
 alias update_neovim="brew reinstall --HEAD neovim && pip2 install -U neovim && pip3 install -U neovim"
 alias brewclean="brew prune && brew cleanup -s && brew cask cleanup"
-alias brewup="brew update && brew upgrade && brewclean"
+alias brewup="brew update && brew upgrade"
 
 # bundler
 alias be="bundle exec"
