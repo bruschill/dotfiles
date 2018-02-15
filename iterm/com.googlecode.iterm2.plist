@@ -404,20 +404,10 @@
 	<false/>
 	<key>LoadPrefsFromCustomFolder</key>
 	<true/>
-	<key>NSColorPanelMode</key>
-	<string>1</string>
-	<key>NSColorPickerSlidersDefaults</key>
-	<string>1</string>
-	<key>NSFontPanelAttributes</key>
-	<string>1, 4</string>
-	<key>NSFontPanelSizeSliderParams</key>
-	<string>2 0 100</string>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/Downloads</string>
+	<string>~/Documents/code/dotfiles/iterm</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
-	<string>{712, 459}</string>
-	<key>NSNavPanelExpandedSizeForSaveMode</key>
-	<string>{712, 521}</string>
+	<string>{712, 448}</string>
 	<key>NSQuotedKeystrokeBinding</key>
 	<string></string>
 	<key>NSRepeatCountBinding</key>
@@ -426,44 +416,33 @@
 	<false/>
 	<key>NSScrollViewShouldScrollUnderTitlebar</key>
 	<false/>
-	<key>NSTableView Columns KeyBingingTable</key>
-	<array>
-		<data>
-		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
-		hAErATCG
-		</data>
-		<string>198</string>
-		<data>
-		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
-		hAErATGG
-		</data>
-		<string>330</string>
-	</array>
-	<key>NSTableView Hidden Columns KeyBingingTable</key>
-	<array/>
-	<key>NSTableView Sort Ordering KeyBingingTable</key>
-	<array/>
-	<key>NSToolbar Configuration com.apple.NSColorPanel</key>
-	<dict>
-		<key>TB Is Shown</key>
-		<integer>1</integer>
-	</dict>
-	<key>NSWindow Frame NSColorPanel</key>
-	<string>599 356 228 325 0 0 1440 900 </string>
-	<key>NSWindow Frame NSFontPanel</key>
-	<string>584 240 445 77 0 0 1440 877 </string>
-	<key>NSWindow Frame Preferences</key>
-	<string>269 400 606 456 0 0 1440 877 </string>
-	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>410 364 620 392 0 0 1440 877 </string>
+	<key>NSTableView Columns v2 KeyBingingTable</key>
+	<data>
+	YnBsaXN0MDDUAQIDBAUGNjdYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3AS
+	AAGGoK4HCA8aGxwdHh8gJjAxMlUkbnVsbNIJCgsOWk5TLm9iamVjdHNWJGNsYXNzogwN
+	gAKACoAN0xAJChEVGVdOUy5rZXlzoxITFIADgASABaMWFxiABoAHgAiACVpJZGVudGlm
+	aWVyVVdpZHRoVkhpZGRlblEwI0BowAAAAAAACNIhIiMkWiRjbGFzc25hbWVYJGNsYXNz
+	ZXNcTlNEaWN0aW9uYXJ5oiMlWE5TT2JqZWN00xAJCicrGaMSExSAA4AEgAWjLC0YgAuA
+	DIAIgAlRMSNAdKGdsi0OVtIhIjM0Xk5TTXV0YWJsZUFycmF5ozM1JVdOU0FycmF5XxAP
+	TlNLZXllZEFyY2hpdmVy0Tg5VUFycmF5gAEACAARABoAIwAtADIANwBGAEwAUQBcAGMA
+	ZgBoAGoAbABzAHsAfwCBAIMAhQCJAIsAjQCPAJEAnACiAKkAqwC0ALUAugDFAM4A2wDe
+	AOcA7gDyAPQA9gD4APwA/gEAAQIBBAEGAQ8BFAEjAScBLwFBAUQBSgAAAAAAAAIBAAAA
+	AAAAADoAAAAAAAAAAAAAAAAAAAFM
+	</data>
+	<key>NSTableView Sort Ordering v2 KeyBingingTable</key>
+	<data>
+	YnBsaXN0MDDUAQIDBAUGFBVYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3AS
+	AAGGoKMHCA1VJG51bGzSCQoLDFpOUy5vYmplY3RzViRjbGFzc6CAAtIODxARWiRjbGFz
+	c25hbWVYJGNsYXNzZXNeTlNNdXRhYmxlQXJyYXmjEBITV05TQXJyYXlYTlNPYmplY3Rf
+	EA9OU0tleWVkQXJjaGl2ZXLRFhdVQXJyYXmAAQgRGiMtMjc7QUZRWFlbYGt0g4ePmKqt
+	swAAAAAAAAEBAAAAAAAAABgAAAAAAAAAAAAAAAAAAAC1
+	</data>
+	<key>NSTableView Supports v2 KeyBingingTable</key>
+	<true/>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>269 245 796 473 0 0 1440 900 </string>
-	<key>NSWindow Frame UKCrashReporter</key>
-	<string>99 293 592 584 0 0 1440 877 </string>
+	<string>269 312 1018 447 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>661 364 570 427 0 0 1440 877 </string>
-	<key>NSWindow Frame iTerm Window 1</key>
-	<string>176 74 570 427 0 0 1440 900 </string>
+	<string>734 252 605 411 0 0 1920 1200 </string>
 	<key>NeverWarnAboutShortLivedSessions_25473A8B-E092-4F6E-8FAD-D7B8E98BA1C3</key>
 	<true/>
 	<key>NeverWarnAboutShortLivedSessions_25473A8B-E092-4F6E-8FAD-D7B8E98BA1C3_selection</key>
@@ -1127,92 +1106,18 @@
 			<string>/Users/bruschill</string>
 		</dict>
 	</array>
-	<key>NoSyncConfirmBeta</key>
-	<true/>
-	<key>NoSyncDoNotWarnBeforeMultilinePaste</key>
-	<true/>
-	<key>NoSyncDoNotWarnBeforeMultilinePaste_selection</key>
-	<integer>0</integer>
-	<key>NoSyncDoNotWarnBeforePastingOneLineEndingInNewlineAtShellPrompt</key>
-	<true/>
-	<key>NoSyncDoNotWarnBeforePastingOneLineEndingInNewlineAtShellPrompt_selection</key>
-	<integer>1</integer>
-	<key>NoSyncHaveWarnedAboutIncompatibleSoftware</key>
+	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
 	<true/>
 	<key>NoSyncInstallationId</key>
-	<string>47133175-7EB2-4D76-B392-E8CC75D25A5D</string>
-	<key>NoSyncLastTipTime</key>
-	<real>483476068.663876</real>
-	<key>NoSyncNeverAskAboutSettingAlternateMouseScroll</key>
-	<true/>
+	<string>225D5200-00DC-469C-85B2-BA9DE63079B4</string>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
 	<integer>0</integer>
 	<key>NoSyncPermissionToShowTip</key>
 	<false/>
-	<key>NoSyncSilenceAnnoyingBellAutomatically</key>
-	<true/>
-	<key>NoSyncTimeOfFirstLaunchForIncompatibilityWarnings</key>
-	<real>485095370.50258303</real>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
-	<real>465449374.03759098</real>
-	<key>NoSyncTipsDisabled</key>
-	<true/>
-	<key>NoSyncTipsToNotShow</key>
-	<array>
-		<string>000</string>
-		<string>0000</string>
-		<string>0000</string>
-		<string>0001</string>
-		<string>0002</string>
-		<string>0003</string>
-		<string>0004</string>
-		<string>0005</string>
-		<string>0006</string>
-		<string>0007</string>
-		<string>0008</string>
-		<string>0009</string>
-		<string>0010</string>
-		<string>0011</string>
-		<string>0012</string>
-		<string>0013</string>
-		<string>0014</string>
-		<string>0015</string>
-		<string>0016</string>
-		<string>0017</string>
-		<string>0018</string>
-		<string>0017</string>
-		<string>0016</string>
-		<string>0015</string>
-		<string>0014</string>
-		<string>0013</string>
-		<string>0012</string>
-		<string>0011</string>
-		<string>0010</string>
-		<string>0009</string>
-		<string>0010</string>
-		<string>0011</string>
-		<string>0012</string>
-		<string>0013</string>
-		<string>0014</string>
-		<string>0015</string>
-		<string>0016</string>
-		<string>0017</string>
-		<string>0018</string>
-		<string>0019</string>
-		<string>0020</string>
-		<string>0021</string>
-		<string>0022</string>
-		<string>0023</string>
-		<string>0024</string>
-		<string>0025</string>
-		<string>0026</string>
-		<string>0027</string>
-		<string>0028</string>
-		<string>0029</string>
-		<string>0030</string>
-	</array>
+	<real>538675468.69390297</real>
 	<key>OnlyWhenMoreTabs</key>
 	<false/>
 	<key>OpenArrangementAtStartup</key>
@@ -1239,18 +1144,16 @@
 	<integer>3</integer>
 	<key>RunJobsInServers</key>
 	<false/>
-	<key>SUAutomaticallyUpdate</key>
-	<true/>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/final.xml?shard=41</string>
+	<string>https://iterm2.com/appcasts/final.xml?shard=23</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-09-27T11:27:28Z</date>
+	<date>2018-02-14T13:45:33Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowBookmarkName</key>
@@ -1270,8 +1173,6 @@
 		<string>Notes</string>
 		<string>Captured Output</string>
 	</array>
-	<key>UKCrashReporterLastCrashReportDate</key>
-	<real>1444713856</real>
 	<key>UseBorder</key>
 	<false/>
 	<key>WindowNumber</key>
@@ -1280,10 +1181,12 @@
 	<string>/-+\~_.</string>
 	<key>findIgnoreCase_iTerm</key>
 	<true/>
+	<key>findMode_iTerm</key>
+	<integer>0</integer>
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.1.2</string>
+	<string>3.1.5</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
