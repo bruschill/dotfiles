@@ -1,5 +1,6 @@
 # general
 alias exit='sh ~/.zsh_config.d/cowboy.sh; sleep 1; exit'
+alias knit='bundle && yarn --ignore-engines'
 
 # grep
 alias grep="grep -v grep | grep"
@@ -21,10 +22,10 @@ alias gcm="g commit -S --amend"
 alias gco="g checkout"
 alias gm="g merge"
 alias gmt="g mergetool"
-alias gd="g diff"
-alias gdc="g diff --cached"
+alias gd="g diff --color-moved"
+alias gdc="g diff --cached --color-moved"
 alias gf="g fetch"
-alias gup="g pull --rebase"
+alias gup="g pull --rebase --autostash"
 alias gp="g push"
 alias gf="g fetch"
 alias gpu="gp -u origin"
@@ -36,7 +37,7 @@ alias ls="ls -GFh"
 alias lh="ls -lah"
 
 # homebrew
-alias update_neovim="brew reinstall --HEAD neovim && pip2 install -U neovim && pip3 install -U neovim"
+alias update_neovim_dependencies="pip2 install -U neovim && pip3 install -U neovim"
 alias brewclean="brew prune && brew cleanup -s && brew cask cleanup"
 alias brewup="brew update && brew upgrade"
 
@@ -49,11 +50,12 @@ alias rc="be rails c"
 alias rs="be rails s"
 alias rdb="be rails db"
 alias rg="be rails g"
+alias rcreds="rails credentials:edit"
 
 # database
 alias dbd="ber db:drop"
 alias dbc="ber db:create"
-alias dbm="ber db:migrate"
+alias dbm="ber db:migrate db:test:prepare"
 alias dbs="ber db:seed"
 alias dbr="ber db:reset"
 alias dbrb="dbd && dbc && dbm && dbs"
