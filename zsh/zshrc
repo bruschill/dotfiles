@@ -8,9 +8,11 @@ if ! zgen saved; then
   zgen oh-my-zsh
   zgen oh-my-zsh themes/miloshadzic
   zgen oh-my-zsh plugins/colored-man-pages
+  zgen oh-my-zsh plugins/colored-man-pages
 
   zgen load skx/sysadmin-util
   zgen load sharat87/zsh-vim-mode
+  zgen load lukechilds/zsh-nvm
   zgen save
 fi
 
@@ -27,3 +29,7 @@ eval "$(rbenv init -)"
 
 # added by travis gem
 [ -f /Users/bruschill/.travis/travis.sh ] && source /Users/bruschill/.travis/travis.sh
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && . "$NVM_DIR/bash_completion"

@@ -1235,7 +1235,7 @@
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>155 594 592 584 0 0 1920 1178 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>775 248 577 459 0 0 1920 1200 </string>
+	<string>775 280 570 427 0 0 1440 900 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>273 122 570 427 0 0 1920 1200 </string>
 	<key>NeverWarnAboutShortLivedSessions_25473A8B-E092-4F6E-8FAD-D7B8E98BA1C3</key>
@@ -1955,6 +1955,8 @@
 	<true/>
 	<key>NoSyncInstallationId</key>
 	<string>225D5200-00DC-469C-85B2-BA9DE63079B4</string>
+	<key>NoSyncNeverAskAboutSettingAlternateMouseScroll</key>
+	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -1998,13 +2000,13 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2019-01-24T01:21:59Z</date>
+	<date>2019-02-13T15:33:12Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowBookmarkName</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
-	<false/>
+	<true/>
 	<key>ShowNewOutputIndicator</key>
 	<false/>
 	<key>SplitPaneDimmingAmount</key>
