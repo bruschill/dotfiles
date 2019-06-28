@@ -1,0 +1,12 @@
+--glob
+!tags/*
+
+--glob
+!plugged/*
+
+--glob
+!.git/*
+
+--no-ignore-vcs
+--hidden
+--smart-case

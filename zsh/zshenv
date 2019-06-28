@@ -16,6 +16,9 @@ export HOMEBREW_NO_ANALYTICS=1
 # programming
 export CODE=$HOME/Documents/code
 
+# ripgrep
+export RIPGREP_CONFIG_PATH=$HOME/.ripgreprc
+
 # go
 export GOPATH=$CODE/go
 export GOBIN=$GOPATH/bin
