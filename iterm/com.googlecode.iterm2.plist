@@ -1538,6 +1538,8 @@
 	<false/>
 	<key>LoadPrefsFromCustomFolder</key>
 	<true/>
+	<key>MaxVertically</key>
+	<true/>
 	<key>NSNavLastRootDirectory</key>
 	<string>~/Downloads/nord-iterm2-0.2.0/src/xml</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
@@ -1579,9 +1581,9 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>269 201 928 394 0 0 1440 877 </string>
+	<string>269 264 918 423 0 0 1440 900 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>611 255 570 427 0 0 1440 900 </string>
+	<string>611 241 570 427 0 0 1440 900 </string>
 	<key>NeverWarnAboutShortLivedSessions_25473A8B-E092-4F6E-8FAD-D7B8E98BA1C3</key>
 	<true/>
 	<key>NeverWarnAboutShortLivedSessions_25473A8B-E092-4F6E-8FAD-D7B8E98BA1C3_selection</key>
