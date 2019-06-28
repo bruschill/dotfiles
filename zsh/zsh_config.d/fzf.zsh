@@ -12,7 +12,7 @@ fi
 source "/usr/local/opt/fzf/shell/key-bindings.zsh"
 
 # GENERAL
-export FZF_DEFAULT_COMMAND='ag -l -g ""'
+export FZF_DEFAULT_COMMAND = "rg --glob '!node_modules/*' --files --no-ignore-vcs --hidden"
 
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 
@@ -22,8 +22,8 @@ export FZF_DEFAULT_OPTS='
 --ansi
 --toggle-sort=ctrl-r
 --bind ctrl-f:page-down,ctrl-b:page-up
---color dark,hl:33,hl+:37,fg+:235,bg+:136,fg+:254
---color info:254,prompt:37,spinner:108,pointer:235,marker:235
+--color fg:#D8DEE9,bg:#2E3440,hl:#A3BE8C,fg+:#D8DEE9,bg+:#434C5E,hl+:#A3BE8C
+--color pointer:#BF616A,info:#4C566A,spinner:#4C566A,header:#4C566A,prompt:#81A1C1,marker:#EBCB8B'
 '
 
 # KEY BINDINGS

@@ -1,7 +1,6 @@
 [user]
 	name = B. Ruschill
 	email = brandon.ruschill@gmail.com
-	signingkey = DBC859637A25B19B
 [github]
 	user = bruschill
 [core]
@@ -9,6 +8,8 @@
 	eol = lf
 	safecrlf = false
 	autocrlf = input
+[commit]
+  gpgsign = false
 [branch]
 	autosetuprebase = always
 [push]
@@ -27,13 +28,7 @@
   cmd = nvim -d $BASE $LOCAL $REMOTE $MERGED -c '$wincmd w' -c 'wincmd J'
 [diff]
   compactionHeuristic = true
-[credential]
-	helper = osxkeychain
 [alias]
 	cleanup = "!git branch --merged | grep  -v '\\*\\|master\\|develop' | xargs -n 1 git branch -d"
-[commit]
-	gpgsign = true
-[gpg]
-	program = gpg
 [fetch]
 	prune = true
