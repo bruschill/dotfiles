@@ -1,6 +1,7 @@
 [user]
 	name = B. Ruschill
 	email = brandon.ruschill@gmail.com
+	signingkey = 6FC39DCE00FFEF7BD701B25D282FC8764F0ED193
 [github]
 	user = bruschill
 [core]
@@ -9,7 +10,7 @@
 	safecrlf = false
 	autocrlf = input
 [commit]
-  gpgsign = false
+	gpgsign = true
 [branch]
 	autosetuprebase = always
 [push]
@@ -32,3 +33,7 @@
 	cleanup = "!git branch --merged | grep  -v '\\*\\|master\\|develop' | xargs -n 1 git branch -d"
 [fetch]
 	prune = true
+[gpg]
+	program = /usr/local/MacGPG2/bin/gpg2
+[tag]
+	forceSignAnnotated = true
