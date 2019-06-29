@@ -7,6 +7,9 @@
 --glob
 !.git/*
 
+--glob
+!node_modules/*
+
 --no-ignore-vcs
 --hidden
 --smart-case
