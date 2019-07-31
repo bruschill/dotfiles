@@ -33,7 +33,7 @@ eval "$(rbenv init -)"
 . /Users/bruschill/.kerl/releases/22.0/activate
 
 # load elixir
-source $HOME/.kiex/elixirs/elixir-1.9.0.env
+source $HOME/.kiex/elixirs/elixir-1.9.1.env
 
 # nvm stuff
 export NVM_DIR="$HOME/.nvm"
