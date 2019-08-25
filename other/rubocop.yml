@@ -1,1 +1,17 @@
 require: rubocop-performance
+
+AllCops:
+  TargetRubyVersion: 2.6
+
+Metrics/BlockLength:
+  Enabled: true
+  Exclude:
+    - spec/**/*
+
+Style/BlockDelimiters:
+  Enabled: true
+  Exclude:
+    - spec/**/*
+
+Style/Documentation:
+  Enabled: false
