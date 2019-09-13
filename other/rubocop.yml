@@ -2,11 +2,18 @@ require: rubocop-performance
 
 AllCops:
   TargetRubyVersion: 2.6
+  Exclude:
+    - bin/**/*
+    - node_modules/**/*
 
 Metrics/BlockLength:
   Enabled: true
   Exclude:
     - spec/**/*
+
+Metrics/LineLength:
+  Enabled: true
+  Max: 120
 
 Style/BlockDelimiters:
   Enabled: true
