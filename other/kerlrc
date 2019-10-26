@@ -1,0 +1,2 @@
+export CFLAGS="-g -O3 -fno-stack-check"
+KERL_CONFIGURE_OPTIONS="--without-javac --with-ssl=/usr/local/Cellar/openssl@1.1/1.1.1d"
