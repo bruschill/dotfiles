@@ -30,9 +30,9 @@ eval "$(rbenv init -)"
 [[ -s "$HOME/.kiex/scripts/kiex" ]] && source "$HOME/.kiex/scripts/kiex"
 
 # load erlang
-. /Users/bruschill/.kerl/releases/22.0/activate
+. /Users/bruschill/.kerl/releases/22.1/activate
 
 # load elixir
-source $HOME/.kiex/elixirs/elixir-1.9.1.env
+source $HOME/.kiex/elixirs/elixir-1.9.2.env
 
 export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
