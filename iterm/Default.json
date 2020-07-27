@@ -1,11 +1,5 @@
 {
-  "Ansi 5 Color" : {
-    "Red Component" : 0.64283657073974609,
-    "Color Space" : "Calibrated",
-    "Blue Component" : 0.61571133136749268,
-    "Alpha Component" : 1,
-    "Green Component" : 0.47487166523933411
-  },
+  "ASCII Ligatures" : false,
   "Working Directory" : "\/Users\/bruschill",
   "Prompt Before Closing 2" : false,
   "Selected Text Color" : {
@@ -324,14 +318,6 @@
   "Blinking Cursor" : false,
   "Send Terminal Generated Alerts" : false,
   "Guid" : "25473A8B-E092-4F6E-8FAD-D7B8E98BA1C3",
-  "Idle Code" : 0,
-  "Ansi 10 Color" : {
-    "Red Component" : 0.57605421543121338,
-    "Color Space" : "Calibrated",
-    "Blue Component" : 0.47597441077232361,
-    "Alpha Component" : 1,
-    "Green Component" : 0.7002110481262207
-  },
   "Ansi 8 Color" : {
     "Red Component" : 0.23306176066398621,
     "Color Space" : "Calibrated",
@@ -339,6 +325,14 @@
     "Alpha Component" : 1,
     "Green Component" : 0.2652154266834259
   },
+  "Ansi 10 Color" : {
+    "Red Component" : 0.57605421543121338,
+    "Color Space" : "Calibrated",
+    "Blue Component" : 0.47597441077232361,
+    "Alpha Component" : 1,
+    "Green Component" : 0.7002110481262207
+  },
+  "Idle Code" : 0,
   "Badge Color" : {
     "Red Component" : 0.20252507925033569,
     "Color Space" : "Calibrated",
@@ -357,7 +351,7 @@
     "Green Component" : 0.19692185521125793
   },
   "Blur" : false,
-  "Normal Font" : "SourceCodePro-Regular 12",
+  "Normal Font" : "SourceCodePro-Regular 15",
   "Vertical Spacing" : 1,
   "Ansi 7 Color" : {
     "Red Component" : 0.87367779016494751,
@@ -418,7 +412,13 @@
   "Use Tab Color" : false,
   "Columns" : 80,
   "Visual Bell" : false,
-  "ASCII Ligatures" : true,
-  "Thin Strokes" : false,
-  "Custom Directory" : "Recycle"
+  "Custom Directory" : "Recycle",
+  "Ansi 5 Color" : {
+    "Red Component" : 0.64283657073974609,
+    "Color Space" : "Calibrated",
+    "Blue Component" : 0.61571133136749268,
+    "Alpha Component" : 1,
+    "Green Component" : 0.47487166523933411
+  },
+  "Thin Strokes" : 0
 }
