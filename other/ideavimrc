@@ -1,3 +1,5 @@
 set ideajump
 set surround
 set commentary
+set relativenumber
+set number
