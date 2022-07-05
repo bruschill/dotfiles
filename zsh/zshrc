@@ -6,7 +6,8 @@ source $HOME/.zgen/zgen.zsh
 
 if ! zgen saved; then
   zgen oh-my-zsh
-  zgen oh-my-zsh themes/miloshadzic
+  zgen oh-my-zsh themes/miloshadzic-no-bolt
+  # zgen oh-my-zsh themes/miloshadzic
   zgen oh-my-zsh plugins/colored-man-pages
 
   zgen save
@@ -17,22 +18,67 @@ for file in $HOME/.zsh_config.d/*.zsh; do
   source $file
 done
 
-source $HOME/.aliasrc
+source $HOME/.credly_env.zsh
 
-eval "$(rbenv init -)"
+source $HOME/.aliasrc
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-# added by travis gem
-[ -f /Users/bruschill/.travis/travis.sh ] && source /Users/bruschill/.travis/travis.sh
+eval "$(rbenv init -)"
+export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
 
-# source kiex
-[[ -s "$HOME/.kiex/scripts/kiex" ]] && source "$HOME/.kiex/scripts/kiex"
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" --no-use # This loads nvm
 
-# load erlang
-. /Users/bruschill/.kerl/releases/22.1/activate
+preexec() {
+  if [[ "$1" =~ "^yarn" || "$1" =~ "^npm" || "$1" =~ "^node" ]]; then
+    if [[ $NVM_VERSION_TO_USE != "empty" ]]; then
+      # remove the 'v' from `cat`ting the .nvmrc file.
+      # Sometimes it exists, other times it doesn't
+      local clean_version=${NVM_VERSION_TO_USE:gs/v/}
+      local current_version=$(nvm version)
+      local current_clean_version=${current_version:gs/v/}
 
-# load elixir
-source $HOME/.kiex/elixirs/elixir-1.9.2.env
+      if [[ "$clean_version" != "$current_clean_version" ]]; then
+        nvm use $clean_version || nvm install $clean_version
+      fi
+    else
+      nvm use default
+    fi
+  fi
+}
 
-export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
+# Traverse directories to find closest node
+# version and store as variable for later.
+switch-node() {
+  local pwd="$PWD"
+  local pwd_list=("${(@s:/:)pwd}")
+  local closest=""
+  local buildPath=""
+
+  # Could be improved by traversing up rather than down.
+  for ((i = 2; i <= $#pwd_list; i++)); do
+    local pathname=${pwd_list[i]}
+
+    if [[ "$i" == "2" ]]; then
+      buildPath="/$pathname"
+    else
+      buildPath="$buildPath/$pathname"
+    fi
+
+    if [ -f "${buildPath}/.nvmrc" ]; then
+      closest=$buildPath
+    fi
+  done
+
+  # Set variable for later use. Don't switch
+  # to version unless node is needed
+  if [[ $closest == "" ]]; then
+    export NVM_VERSION_TO_USE="empty"
+  else
+    export NVM_VERSION_TO_USE="$(cat $closest/.nvmrc)"
+  fi
+}
+autoload -U add-zsh-hook
+add-zsh-hook chpwd switch-node
+switch-node
