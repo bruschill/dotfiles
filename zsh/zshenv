@@ -1,6 +1,6 @@
-prepend() { [ -d "$2" ] && eval $1=\"$2\$\{$1:+':'\$$1\}\" && export $1 ; }
-
 # general
+unsetopt nomatch
+
 export EDITOR='vim'
 export LC_ALL="en_US.UTF-8"
 export LANG="en_US.UTF-8"
@@ -11,10 +11,16 @@ export TERM=xterm-256color
 
 #homebrew
 export HOMEBREW_EDITOR=vim
+export HOMEBREW_BOOTSNAP=1
 export HOMEBREW_NO_ANALYTICS=1
+export HOMEBREW_ACCESS_TOKEN='850aea8af8f227fda985157ac1fb37e4dad500e5'
 
 # programming
 export CODE=$HOME/Documents/code
+export CC_TEST_REPORTER_ID=309fbc243829094244377f0fa80f83a03746d52d72c6f7756c772d1d4643f92f
+
+# ruby
+# export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
 
 # ripgrep
 export RIPGREP_CONFIG_PATH=$HOME/.ripgreprc
@@ -23,6 +29,14 @@ export RIPGREP_CONFIG_PATH=$HOME/.ripgreprc
 export GOPATH=$CODE/go
 export GOBIN=$GOPATH/bin
 
+# python
+export PYTHON=/usr/local/bin/python3
+
+# homebrew
+export PG_BIN_PATH=/usr/local/opt/postgresql@12/bin
+
 # path appending/prepending
 export PATH=$PATH:$GOBIN
-prepend PATH /usr/local/bin
+export PATH=$PG_BIN_PATH:$PATH
+
+export JAVA_HOME=/Library/Java/HOME
